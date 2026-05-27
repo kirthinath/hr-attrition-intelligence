@@ -8,7 +8,7 @@
 
 The interactive dashboard is deployed and accessible via Streamlit Community Cloud. Experience the executive command center, test "what-if" scenarios, and review individualized flight risk drivers.
 
-* **Live App URL:** [ADD YOUR STREAMLIT URL AFTER DEPLOYMENT]
+* **Live App URL:** [https://hr-attrition-intelligence-55555.streamlit.app/](https://hr-attrition-intelligence-55555.streamlit.app/)
 * **Repository:** `hr_attrition_intelligence`
 
 ![HR Attrition & Retention Intelligence Dashboard](screenshots/dashboard.png)
