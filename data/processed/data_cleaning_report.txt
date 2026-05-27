@@ -1,0 +1,51 @@
+=========================================
+HR ATTRITION INTELLIGENCE: DATA CLEANING REPORT
+=========================================
+
+Raw file analyzed: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/raw/employee_attrition_raw.csv
+Raw shape: 1470 rows, 35 columns
+Cleaned shape: 1470 rows, 32 columns
+Duplicates removed: 0
+Missing values found: 0
+Zero-variance columns dropped: ['employee_count', 'over18', 'standard_hours']
+
+Missing Value Count by Column:
+age                           0
+attrition                     0
+business_travel               0
+daily_rate                    0
+department                    0
+distance_from_home            0
+education                     0
+education_field               0
+employee_count                0
+employee_id                   0
+environment_satisfaction      0
+gender                        0
+hourly_rate                   0
+job_involvement               0
+job_level                     0
+job_role                      0
+job_satisfaction              0
+marital_status                0
+monthly_income                0
+monthly_rate                  0
+num_companies_worked          0
+over18                        0
+overtime                      0
+percent_salary_hike           0
+performance_rating            0
+relationship_satisfaction     0
+standard_hours                0
+stock_option_level            0
+total_working_years           0
+training_times_last_year      0
+work_life_balance             0
+years_at_company              0
+years_in_current_role         0
+years_since_last_promotion    0
+years_with_curr_manager       0
+
+Consistency Checks Summary:
+- Logical violations fixed: 0
+=========================================

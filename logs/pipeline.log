@@ -1,0 +1,607 @@
+2026-05-24 18:03:51,720 [INFO] root: Logging initialized. Log file saved at: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/logs/pipeline.log
+2026-05-24 18:03:51,720 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:03:51,720 [INFO] main_pipeline:          STARTING HR ATTRITION Retention INTELLIGENCE SYSTEM      
+2026-05-24 18:03:51,720 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:03:51,720 [INFO] main_pipeline: [STAGE 1/8] Cleaning and validating raw dataset...
+2026-05-24 18:03:51,720 [INFO] src.data_cleaning: Starting data cleaning pipeline...
+2026-05-24 18:03:51,730 [INFO] src.data_cleaning: Loaded raw dataset with shape: (1470, 35)
+2026-05-24 18:03:51,731 [INFO] src.data_cleaning: Column names standardized to snake_case.
+2026-05-24 18:03:51,732 [INFO] src.data_cleaning: No duplicate records found.
+2026-05-24 18:03:51,732 [INFO] src.data_cleaning: No missing values detected in the raw dataset.
+2026-05-24 18:03:51,733 [INFO] src.data_cleaning: Data consistency validation passed successfully.
+2026-05-24 18:03:51,733 [INFO] src.data_cleaning: Mapped target column 'attrition': Yes/No -> 1/0
+2026-05-24 18:03:51,734 [INFO] src.data_cleaning: Dropping zero-variance columns: ['employee_count', 'over18', 'standard_hours']
+2026-05-24 18:03:51,742 [INFO] src.data_cleaning: Successfully clean and exported data to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv
+2026-05-24 18:03:51,742 [INFO] src.data_cleaning: Cleaned dataset shape: (1470, 32)
+2026-05-24 18:03:51,742 [INFO] src.data_cleaning: Cleaning diagnostics report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/data_cleaning_report.txt
+2026-05-24 18:03:51,742 [INFO] main_pipeline: [STAGE 2/8] Running feature engineering pipeline...
+2026-05-24 18:03:51,742 [INFO] src.feature_engineering: Starting feature engineering pipeline...
+2026-05-24 18:03:51,744 [INFO] src.feature_engineering: Loaded cleaned dataset with shape: (1470, 32)
+2026-05-24 18:03:51,745 [INFO] src.feature_engineering: Feature 1/10: 'income_band' created.
+2026-05-24 18:03:51,745 [INFO] src.feature_engineering: Feature 2/10: 'tenure_group' created.
+2026-05-24 18:03:51,746 [INFO] src.feature_engineering: Feature 3/10: 'promotion_delay_risk' created.
+2026-05-24 18:03:51,746 [CRITICAL] main_pipeline: Pipeline crashed during execution: 'overtime'
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'overtime'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/main.py", line 38, in main
+    engineer_features()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/src/feature_engineering.py", line 66, in engineer_features
+    df["overtime_risk_score"] = df["overtime"] * (5 - df["work_life_balance"]) * (5 - df["job_involvement"])
+                                ~~^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/opt/anaconda3/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'overtime'
+2026-05-24 18:10:37,467 [INFO] root: Logging initialized. Log file saved at: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/logs/pipeline.log
+2026-05-24 18:10:37,467 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:10:37,467 [INFO] main_pipeline:          STARTING HR ATTRITION Retention INTELLIGENCE SYSTEM      
+2026-05-24 18:10:37,467 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:10:37,467 [INFO] main_pipeline: [STAGE 1/8] Cleaning and validating raw dataset...
+2026-05-24 18:10:37,467 [INFO] src.data_cleaning: Starting data cleaning pipeline...
+2026-05-24 18:10:37,477 [INFO] src.data_cleaning: Loaded raw dataset with shape: (1470, 35)
+2026-05-24 18:10:37,478 [INFO] src.data_cleaning: Column names standardized to snake_case.
+2026-05-24 18:10:37,480 [INFO] src.data_cleaning: No duplicate records found.
+2026-05-24 18:10:37,481 [INFO] src.data_cleaning: No missing values detected in the raw dataset.
+2026-05-24 18:10:37,481 [INFO] src.data_cleaning: Data consistency validation passed successfully.
+2026-05-24 18:10:37,482 [INFO] src.data_cleaning: Mapped target column 'attrition': Yes/No -> 1/0
+2026-05-24 18:10:37,482 [INFO] src.data_cleaning: Mapped feature column 'overtime': Yes/No -> 1/0
+2026-05-24 18:10:37,483 [INFO] src.data_cleaning: Dropping zero-variance columns: ['employee_count', 'over18', 'standard_hours']
+2026-05-24 18:10:37,488 [INFO] src.data_cleaning: Successfully clean and exported data to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv
+2026-05-24 18:10:37,488 [INFO] src.data_cleaning: Cleaned dataset shape: (1470, 32)
+2026-05-24 18:10:37,488 [INFO] src.data_cleaning: Cleaning diagnostics report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/data_cleaning_report.txt
+2026-05-24 18:10:37,488 [INFO] main_pipeline: [STAGE 2/8] Running feature engineering pipeline...
+2026-05-24 18:10:37,488 [INFO] src.feature_engineering: Starting feature engineering pipeline...
+2026-05-24 18:10:37,490 [INFO] src.feature_engineering: Loaded cleaned dataset with shape: (1470, 32)
+2026-05-24 18:10:37,491 [INFO] src.feature_engineering: Feature 1/10: 'income_band' created.
+2026-05-24 18:10:37,491 [INFO] src.feature_engineering: Feature 2/10: 'tenure_group' created.
+2026-05-24 18:10:37,491 [INFO] src.feature_engineering: Feature 3/10: 'promotion_delay_risk' created.
+2026-05-24 18:10:37,491 [INFO] src.feature_engineering: Feature 4/10: 'overtime_risk_score' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 5/10: 'work_life_balance_risk' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 6/10: 'satisfaction_composite_score' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 7/10: 'manager_stability_score' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 8/10: 'career_growth_risk_indicator' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 9/10: 'travel_burden_score' created.
+2026-05-24 18:10:37,492 [INFO] src.feature_engineering: Feature 10/10: 'burnout_risk_index' created.
+2026-05-24 18:10:37,499 [INFO] src.feature_engineering: Enriched dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv (Shape: (1470, 42))
+2026-05-24 18:10:37,500 [INFO] main_pipeline: [STAGE 3/8] Generating corporate visualization plots...
+2026-05-24 18:10:37,500 [INFO] src.exploratory_analysis: Starting EDA visualization pipeline...
+2026-05-24 18:10:37,502 [INFO] src.exploratory_analysis: Loaded dataset for EDA with shape: (1470, 42)
+2026-05-24 18:10:38,986 [INFO] src.exploratory_analysis: Saved Plot 1: Attrition Distribution
+2026-05-24 18:10:39,123 [INFO] src.exploratory_analysis: Saved Plot 2: Department Attrition
+2026-05-24 18:10:39,131 [CRITICAL] main_pipeline: Pipeline crashed during execution: The palette dictionary is missing keys: {'Departed', 'Active'}
+Traceback (most recent call last):
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/main.py", line 42, in main
+    generate_eda_plots()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/src/exploratory_analysis.py", line 88, in generate_eda_plots
+    sns.kdeplot(data=df_plot, x="monthly_income", hue="Attrition Status", fill=True,
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                palette=palette_attrition, common_norm=False, alpha=0.4, linewidth=2)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/seaborn/distributions.py", line 1674, in kdeplot
+    p.map_hue(palette=palette, order=hue_order, norm=hue_norm)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/seaborn/_base.py", line 838, in map_hue
+    mapping = HueMapping(self, palette, order, norm, saturation)
+  File "/opt/anaconda3/lib/python3.13/site-packages/seaborn/_base.py", line 150, in __init__
+    levels, lookup_table = self.categorical_mapping(
+                           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        data, palette, order,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/seaborn/_base.py", line 234, in categorical_mapping
+    raise ValueError(err.format(missing))
+ValueError: The palette dictionary is missing keys: {'Departed', 'Active'}
+2026-05-24 18:11:05,676 [INFO] root: Logging initialized. Log file saved at: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/logs/pipeline.log
+2026-05-24 18:11:05,676 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:11:05,676 [INFO] main_pipeline:          STARTING HR ATTRITION Retention INTELLIGENCE SYSTEM      
+2026-05-24 18:11:05,676 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:11:05,676 [INFO] main_pipeline: [STAGE 1/8] Cleaning and validating raw dataset...
+2026-05-24 18:11:05,676 [INFO] src.data_cleaning: Starting data cleaning pipeline...
+2026-05-24 18:11:05,683 [INFO] src.data_cleaning: Loaded raw dataset with shape: (1470, 35)
+2026-05-24 18:11:05,684 [INFO] src.data_cleaning: Column names standardized to snake_case.
+2026-05-24 18:11:05,685 [INFO] src.data_cleaning: No duplicate records found.
+2026-05-24 18:11:05,685 [INFO] src.data_cleaning: No missing values detected in the raw dataset.
+2026-05-24 18:11:05,686 [INFO] src.data_cleaning: Data consistency validation passed successfully.
+2026-05-24 18:11:05,686 [INFO] src.data_cleaning: Mapped target column 'attrition': Yes/No -> 1/0
+2026-05-24 18:11:05,686 [INFO] src.data_cleaning: Mapped feature column 'overtime': Yes/No -> 1/0
+2026-05-24 18:11:05,687 [INFO] src.data_cleaning: Dropping zero-variance columns: ['employee_count', 'over18', 'standard_hours']
+2026-05-24 18:11:05,692 [INFO] src.data_cleaning: Successfully clean and exported data to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv
+2026-05-24 18:11:05,692 [INFO] src.data_cleaning: Cleaned dataset shape: (1470, 32)
+2026-05-24 18:11:05,692 [INFO] src.data_cleaning: Cleaning diagnostics report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/data_cleaning_report.txt
+2026-05-24 18:11:05,692 [INFO] main_pipeline: [STAGE 2/8] Running feature engineering pipeline...
+2026-05-24 18:11:05,692 [INFO] src.feature_engineering: Starting feature engineering pipeline...
+2026-05-24 18:11:05,694 [INFO] src.feature_engineering: Loaded cleaned dataset with shape: (1470, 32)
+2026-05-24 18:11:05,695 [INFO] src.feature_engineering: Feature 1/10: 'income_band' created.
+2026-05-24 18:11:05,695 [INFO] src.feature_engineering: Feature 2/10: 'tenure_group' created.
+2026-05-24 18:11:05,695 [INFO] src.feature_engineering: Feature 3/10: 'promotion_delay_risk' created.
+2026-05-24 18:11:05,695 [INFO] src.feature_engineering: Feature 4/10: 'overtime_risk_score' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 5/10: 'work_life_balance_risk' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 6/10: 'satisfaction_composite_score' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 7/10: 'manager_stability_score' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 8/10: 'career_growth_risk_indicator' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 9/10: 'travel_burden_score' created.
+2026-05-24 18:11:05,696 [INFO] src.feature_engineering: Feature 10/10: 'burnout_risk_index' created.
+2026-05-24 18:11:05,703 [INFO] src.feature_engineering: Enriched dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv (Shape: (1470, 42))
+2026-05-24 18:11:05,703 [INFO] main_pipeline: [STAGE 3/8] Generating corporate visualization plots...
+2026-05-24 18:11:05,703 [INFO] src.exploratory_analysis: Starting EDA visualization pipeline...
+2026-05-24 18:11:05,706 [INFO] src.exploratory_analysis: Loaded dataset for EDA with shape: (1470, 42)
+2026-05-24 18:11:05,919 [INFO] src.exploratory_analysis: Saved Plot 1: Attrition Distribution
+2026-05-24 18:11:06,056 [INFO] src.exploratory_analysis: Saved Plot 2: Department Attrition
+2026-05-24 18:11:06,221 [INFO] src.exploratory_analysis: Saved Plot 3: Salary vs Attrition
+2026-05-24 18:11:06,407 [INFO] src.exploratory_analysis: Saved Plot 4: Job Role Attrition
+2026-05-24 18:11:06,519 [INFO] src.exploratory_analysis: Saved Plot 5: Overtime Impact
+2026-05-24 18:11:06,653 [INFO] src.exploratory_analysis: Saved Plot 6: Satisfaction Analysis
+2026-05-24 18:11:06,981 [INFO] src.exploratory_analysis: Saved Plot 7: Correlation Heatmap
+2026-05-24 18:11:07,155 [INFO] src.exploratory_analysis: Saved Plot 8: Age vs Attrition
+2026-05-24 18:11:07,320 [INFO] src.exploratory_analysis: Saved Plot 9: Tenure Distribution
+2026-05-24 18:11:07,449 [INFO] src.exploratory_analysis: Saved Plot 10: Business Travel Impact
+2026-05-24 18:11:07,450 [INFO] src.exploratory_analysis: All 10 EDA plots generated and saved in: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/reports/figures
+2026-05-24 18:11:07,450 [INFO] main_pipeline: [STAGE 4/8] Training, tuning, and selecting champion classifier...
+2026-05-24 18:11:07,450 [INFO] src.model_training: Starting machine learning model training pipeline...
+2026-05-24 18:11:07,453 [INFO] src.model_training: Categorical features (8): ['business_travel', 'department', 'education_field', 'gender', 'job_role', 'marital_status', 'income_band', 'tenure_group']
+2026-05-24 18:11:07,453 [INFO] src.model_training: Numerical features (32): ['age', 'daily_rate', 'distance_from_home', 'education', 'environment_satisfaction', 'hourly_rate', 'job_involvement', 'job_level', 'job_satisfaction', 'monthly_income', 'monthly_rate', 'num_companies_worked', 'overtime', 'percent_salary_hike', 'performance_rating', 'relationship_satisfaction', 'stock_option_level', 'total_working_years', 'training_times_last_year', 'work_life_balance', 'years_at_company', 'years_in_current_role', 'years_since_last_promotion', 'years_with_curr_manager', 'promotion_delay_risk', 'overtime_risk_score', 'work_life_balance_risk', 'satisfaction_composite_score', 'manager_stability_score', 'career_growth_risk_indicator', 'travel_burden_score', 'burnout_risk_index']
+2026-05-24 18:11:07,454 [INFO] src.model_training: Train set size: 1102 | Test set size: 368
+2026-05-24 18:11:07,455 [INFO] src.model_training: Class ratio (Negative/Positive) in train set: 5.19
+2026-05-24 18:11:07,455 [INFO] src.model_training: Tuning hyper-parameters for logistic_regression...
+2026-05-24 18:11:09,428 [INFO] src.model_training: Best parameters for logistic_regression: {'classifier__C': 10.0, 'classifier__max_iter': 1000, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs'}
+2026-05-24 18:11:09,434 [INFO] src.model_training: [LOGISTIC_REGRESSION] Metrics -> Acc: 0.8614 | Prec: 0.6333 | Rec: 0.3220 | F1: 0.4270 | AUC: 0.8226
+2026-05-24 18:11:09,434 [INFO] src.model_training: Tuning hyper-parameters for random_forest...
+2026-05-24 18:11:13,365 [INFO] src.model_training: Best parameters for random_forest: {'classifier__class_weight': 'balanced', 'classifier__max_depth': 6, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 300}
+2026-05-24 18:11:13,383 [INFO] src.model_training: [RANDOM_FOREST] Metrics -> Acc: 0.8397 | Prec: 0.5000 | Rec: 0.4237 | F1: 0.4587 | AUC: 0.7868
+2026-05-24 18:11:13,383 [INFO] src.model_training: Tuning hyper-parameters for xgboost...
+2026-05-24 18:11:14,749 [INFO] src.model_training: Best parameters for xgboost: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 1.0}
+2026-05-24 18:11:14,756 [INFO] src.model_training: [XGBOOST] Metrics -> Acc: 0.8152 | Prec: 0.4328 | Rec: 0.4915 | F1: 0.4603 | AUC: 0.7779
+2026-05-24 18:11:14,756 [INFO] src.model_training: Tuning hyper-parameters for gradient_boosting...
+2026-05-24 18:11:24,843 [INFO] src.model_training: Best parameters for gradient_boosting: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200, 'classifier__subsample': 1.0}
+2026-05-24 18:11:24,850 [INFO] src.model_training: [GRADIENT_BOOSTING] Metrics -> Acc: 0.8614 | Prec: 0.6667 | Rec: 0.2712 | F1: 0.3855 | AUC: 0.7990
+2026-05-24 18:11:24,850 [INFO] src.model_training: *** CHAMPION MODEL SELECTED: XGBOOST (F1-score: 0.4603) ***
+2026-05-24 18:11:24,852 [INFO] src.model_training: Serialized champion pipeline saved to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/models/best_attrition_model.pkl
+2026-05-24 18:11:24,853 [INFO] src.model_training: 
+                     accuracy  precision    recall  f1_score   roc_auc
+logistic_regression  0.861413   0.633333  0.322034  0.426966  0.822555
+random_forest        0.839674   0.500000  0.423729  0.458716  0.786847
+xgboost              0.815217   0.432836  0.491525  0.460317  0.777906
+gradient_boosting    0.861413   0.666667  0.271186  0.385542  0.799024
+2026-05-24 18:11:24,854 [INFO] main_pipeline: [STAGE 5/8] Running model explainability (SHAP) & evaluation...
+2026-05-24 18:11:24,854 [INFO] src.model_evaluation: Starting model evaluation and explainability pipeline...
+2026-05-24 18:11:24,859 [INFO] src.model_evaluation: Loaded model pipeline: Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('scaler',
+                                                                   StandardScaler())]),
+                                                  ['age', 'daily_rate',
+                                                   'distance_from_home',
+                                                   'education',
+                                                   'environment_satisfaction',
+                                                   'hourly_rate',
+                                                   'job_involvement',
+                                                   'job_level',
+                                                   'job_satisfaction',
+                                                   'monthly_income',
+                                                   'monthly_rate',
+                                                   'num_companies_worked',
+                                                   'overtime',
+                                                   'percent_salary_hike',
+                                                   'p...
+                               feature_types=None, feature_weights=None,
+                               gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=0.1,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=3, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=100, n_jobs=None,
+                               num_parallel_tree=None, ...))])
+2026-05-24 18:11:24,966 [INFO] src.model_evaluation: Saved Plot: Confusion Matrix
+2026-05-24 18:11:25,099 [INFO] src.model_evaluation: Saved Plot: ROC Curve
+2026-05-24 18:11:25,234 [INFO] src.model_evaluation: Saved Plot: Precision-Recall Curve
+2026-05-24 18:11:25,482 [INFO] src.model_evaluation: Saved Plot: Feature Importance
+2026-05-24 18:11:25,482 [INFO] src.model_evaluation: Calculating SHAP explainability values...
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: Saved Plot: SHAP Summary beeswarm
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: ==== EXECUTIVE BUSINESS INSIGHTS FROM MODEL ====
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: 1. OVERTIME IMPACT: Employees working overtime are significantly more likely to leave the organization.
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: 2. SATISFACTION: Low Job and Environment Satisfaction composite scores serve as the strongest predictors of attrition.
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: 3. TENURE & AGE: Employees with short tenure (New Hires) and younger employees represent the highest frequency of departures.
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: 4. CAREER STAGNATION: Employees with high working years relative to their job levels (stalled progression) exhibit elevated attrition risk.
+2026-05-24 18:11:25,763 [INFO] src.model_evaluation: ================================================
+2026-05-24 18:11:25,764 [INFO] main_pipeline: [STAGE 6/8] Generating active flight risk scores and recommendations...
+2026-05-24 18:11:25,764 [INFO] src.prediction_pipeline: Executing prediction and risk scoring pipeline...
+2026-05-24 18:11:25,768 [INFO] src.prediction_pipeline: Generating predictions...
+2026-05-24 18:11:25,771 [INFO] src.prediction_pipeline: Calculating SHAP values for individual risk driver analysis...
+2026-05-24 18:11:25,790 [INFO] src.prediction_pipeline: Successfully generated and exported employee risk scores to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/exports/employee_attrition_risk_scores.csv
+2026-05-24 18:11:25,791 [INFO] src.prediction_pipeline: Summary of Risk Levels:
+RiskLevel
+Low       989
+Medium    301
+High      180
+Name: count, dtype: int64
+2026-05-24 18:11:25,791 [INFO] main_pipeline: [STAGE 7/8] Running employee strategic segmentation...
+2026-05-24 18:11:25,791 [INFO] src.segmentation: Executing employee strategic segmentation pipeline...
+2026-05-24 18:11:25,795 [INFO] src.segmentation: Merged features and risk scores. Enriched shape: (1470, 45)
+2026-05-24 18:11:25,810 [INFO] src.segmentation: Workforce segmentation complete.
+2026-05-24 18:11:25,811 [INFO] src.segmentation: Segment Distribution:
+primary_segment
+Burnout Risk              419
+General Workforce         239
+Champion                  218
+High Performer at Risk    180
+Loyal Employee            180
+New Employee              160
+Disengaged                 74
+2026-05-24 18:11:25,820 [INFO] src.segmentation: Segmented dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/segmented_hr_data.csv
+2026-05-24 18:11:25,820 [INFO] main_pipeline: [STAGE 8/8] Calculating business metrics & writing executive report...
+2026-05-24 18:11:25,820 [INFO] src.business_metrics: Computing business metrics scorecard...
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:11:25,825 [INFO] src.business_metrics:                   ENTERPRISE WORKFORCE SCORECARD                 
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: Total Headcount Analyzed      : 1470
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: Overall Attrition Rate        : 16.12% (Retention: 83.88%)
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: Estimated Attrition Cost Loss : $20,421,738.00
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: Active High Risk Headcount    : 18 employees
+2026-05-24 18:11:25,825 [INFO] src.business_metrics: Aggregate Workforce Risk Score: 19.60%
+2026-05-24 18:11:25,825 [CRITICAL] main_pipeline: Pipeline crashed during execution: Invalid format specifier '.2fx' for object of type 'float'
+Traceback (most recent call last):
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/main.py", line 63, in main
+    calculate_business_metrics(segmented_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/src/business_metrics.py", line 109, in calculate_business_metrics
+    logger.info(f"Overtime Attrition Multiplier : {ot_multiplier:.2fx} higher risk")
+                                                  ^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid format specifier '.2fx' for object of type 'float'
+2026-05-24 18:11:49,409 [INFO] root: Logging initialized. Log file saved at: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/logs/pipeline.log
+2026-05-24 18:11:49,409 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:11:49,409 [INFO] main_pipeline:          STARTING HR ATTRITION Retention INTELLIGENCE SYSTEM      
+2026-05-24 18:11:49,409 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:11:49,409 [INFO] main_pipeline: [STAGE 1/8] Cleaning and validating raw dataset...
+2026-05-24 18:11:49,409 [INFO] src.data_cleaning: Starting data cleaning pipeline...
+2026-05-24 18:11:49,417 [INFO] src.data_cleaning: Loaded raw dataset with shape: (1470, 35)
+2026-05-24 18:11:49,417 [INFO] src.data_cleaning: Column names standardized to snake_case.
+2026-05-24 18:11:49,418 [INFO] src.data_cleaning: No duplicate records found.
+2026-05-24 18:11:49,419 [INFO] src.data_cleaning: No missing values detected in the raw dataset.
+2026-05-24 18:11:49,419 [INFO] src.data_cleaning: Data consistency validation passed successfully.
+2026-05-24 18:11:49,419 [INFO] src.data_cleaning: Mapped target column 'attrition': Yes/No -> 1/0
+2026-05-24 18:11:49,420 [INFO] src.data_cleaning: Mapped feature column 'overtime': Yes/No -> 1/0
+2026-05-24 18:11:49,420 [INFO] src.data_cleaning: Dropping zero-variance columns: ['employee_count', 'over18', 'standard_hours']
+2026-05-24 18:11:49,425 [INFO] src.data_cleaning: Successfully clean and exported data to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv
+2026-05-24 18:11:49,425 [INFO] src.data_cleaning: Cleaned dataset shape: (1470, 32)
+2026-05-24 18:11:49,426 [INFO] src.data_cleaning: Cleaning diagnostics report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/data_cleaning_report.txt
+2026-05-24 18:11:49,426 [INFO] main_pipeline: [STAGE 2/8] Running feature engineering pipeline...
+2026-05-24 18:11:49,426 [INFO] src.feature_engineering: Starting feature engineering pipeline...
+2026-05-24 18:11:49,427 [INFO] src.feature_engineering: Loaded cleaned dataset with shape: (1470, 32)
+2026-05-24 18:11:49,428 [INFO] src.feature_engineering: Feature 1/10: 'income_band' created.
+2026-05-24 18:11:49,428 [INFO] src.feature_engineering: Feature 2/10: 'tenure_group' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 3/10: 'promotion_delay_risk' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 4/10: 'overtime_risk_score' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 5/10: 'work_life_balance_risk' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 6/10: 'satisfaction_composite_score' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 7/10: 'manager_stability_score' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 8/10: 'career_growth_risk_indicator' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 9/10: 'travel_burden_score' created.
+2026-05-24 18:11:49,429 [INFO] src.feature_engineering: Feature 10/10: 'burnout_risk_index' created.
+2026-05-24 18:11:49,437 [INFO] src.feature_engineering: Enriched dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv (Shape: (1470, 42))
+2026-05-24 18:11:49,437 [INFO] main_pipeline: [STAGE 3/8] Generating corporate visualization plots...
+2026-05-24 18:11:49,437 [INFO] src.exploratory_analysis: Starting EDA visualization pipeline...
+2026-05-24 18:11:49,439 [INFO] src.exploratory_analysis: Loaded dataset for EDA with shape: (1470, 42)
+2026-05-24 18:11:49,662 [INFO] src.exploratory_analysis: Saved Plot 1: Attrition Distribution
+2026-05-24 18:11:49,800 [INFO] src.exploratory_analysis: Saved Plot 2: Department Attrition
+2026-05-24 18:11:49,963 [INFO] src.exploratory_analysis: Saved Plot 3: Salary vs Attrition
+2026-05-24 18:11:50,148 [INFO] src.exploratory_analysis: Saved Plot 4: Job Role Attrition
+2026-05-24 18:11:50,264 [INFO] src.exploratory_analysis: Saved Plot 5: Overtime Impact
+2026-05-24 18:11:50,394 [INFO] src.exploratory_analysis: Saved Plot 6: Satisfaction Analysis
+2026-05-24 18:11:50,713 [INFO] src.exploratory_analysis: Saved Plot 7: Correlation Heatmap
+2026-05-24 18:11:50,889 [INFO] src.exploratory_analysis: Saved Plot 8: Age vs Attrition
+2026-05-24 18:11:51,047 [INFO] src.exploratory_analysis: Saved Plot 9: Tenure Distribution
+2026-05-24 18:11:51,171 [INFO] src.exploratory_analysis: Saved Plot 10: Business Travel Impact
+2026-05-24 18:11:51,171 [INFO] src.exploratory_analysis: All 10 EDA plots generated and saved in: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/reports/figures
+2026-05-24 18:11:51,171 [INFO] main_pipeline: [STAGE 4/8] Training, tuning, and selecting champion classifier...
+2026-05-24 18:11:51,171 [INFO] src.model_training: Starting machine learning model training pipeline...
+2026-05-24 18:11:51,174 [INFO] src.model_training: Categorical features (8): ['business_travel', 'department', 'education_field', 'gender', 'job_role', 'marital_status', 'income_band', 'tenure_group']
+2026-05-24 18:11:51,174 [INFO] src.model_training: Numerical features (32): ['age', 'daily_rate', 'distance_from_home', 'education', 'environment_satisfaction', 'hourly_rate', 'job_involvement', 'job_level', 'job_satisfaction', 'monthly_income', 'monthly_rate', 'num_companies_worked', 'overtime', 'percent_salary_hike', 'performance_rating', 'relationship_satisfaction', 'stock_option_level', 'total_working_years', 'training_times_last_year', 'work_life_balance', 'years_at_company', 'years_in_current_role', 'years_since_last_promotion', 'years_with_curr_manager', 'promotion_delay_risk', 'overtime_risk_score', 'work_life_balance_risk', 'satisfaction_composite_score', 'manager_stability_score', 'career_growth_risk_indicator', 'travel_burden_score', 'burnout_risk_index']
+2026-05-24 18:11:51,175 [INFO] src.model_training: Train set size: 1102 | Test set size: 368
+2026-05-24 18:11:51,175 [INFO] src.model_training: Class ratio (Negative/Positive) in train set: 5.19
+2026-05-24 18:11:51,175 [INFO] src.model_training: Tuning hyper-parameters for logistic_regression...
+2026-05-24 18:11:53,016 [INFO] src.model_training: Best parameters for logistic_regression: {'classifier__C': 10.0, 'classifier__max_iter': 1000, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs'}
+2026-05-24 18:11:53,021 [INFO] src.model_training: [LOGISTIC_REGRESSION] Metrics -> Acc: 0.8614 | Prec: 0.6333 | Rec: 0.3220 | F1: 0.4270 | AUC: 0.8226
+2026-05-24 18:11:53,021 [INFO] src.model_training: Tuning hyper-parameters for random_forest...
+2026-05-24 18:11:57,046 [INFO] src.model_training: Best parameters for random_forest: {'classifier__class_weight': 'balanced', 'classifier__max_depth': 6, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 300}
+2026-05-24 18:11:57,063 [INFO] src.model_training: [RANDOM_FOREST] Metrics -> Acc: 0.8397 | Prec: 0.5000 | Rec: 0.4237 | F1: 0.4587 | AUC: 0.7868
+2026-05-24 18:11:57,063 [INFO] src.model_training: Tuning hyper-parameters for xgboost...
+2026-05-24 18:11:58,515 [INFO] src.model_training: Best parameters for xgboost: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 1.0}
+2026-05-24 18:11:58,521 [INFO] src.model_training: [XGBOOST] Metrics -> Acc: 0.8152 | Prec: 0.4328 | Rec: 0.4915 | F1: 0.4603 | AUC: 0.7779
+2026-05-24 18:11:58,521 [INFO] src.model_training: Tuning hyper-parameters for gradient_boosting...
+2026-05-24 18:12:08,860 [INFO] src.model_training: Best parameters for gradient_boosting: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200, 'classifier__subsample': 1.0}
+2026-05-24 18:12:08,867 [INFO] src.model_training: [GRADIENT_BOOSTING] Metrics -> Acc: 0.8614 | Prec: 0.6667 | Rec: 0.2712 | F1: 0.3855 | AUC: 0.7990
+2026-05-24 18:12:08,867 [INFO] src.model_training: *** CHAMPION MODEL SELECTED: XGBOOST (F1-score: 0.4603) ***
+2026-05-24 18:12:08,868 [INFO] src.model_training: Serialized champion pipeline saved to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/models/best_attrition_model.pkl
+2026-05-24 18:12:08,870 [INFO] src.model_training: 
+                     accuracy  precision    recall  f1_score   roc_auc
+logistic_regression  0.861413   0.633333  0.322034  0.426966  0.822555
+random_forest        0.839674   0.500000  0.423729  0.458716  0.786847
+xgboost              0.815217   0.432836  0.491525  0.460317  0.777906
+gradient_boosting    0.861413   0.666667  0.271186  0.385542  0.799024
+2026-05-24 18:12:08,870 [INFO] main_pipeline: [STAGE 5/8] Running model explainability (SHAP) & evaluation...
+2026-05-24 18:12:08,870 [INFO] src.model_evaluation: Starting model evaluation and explainability pipeline...
+2026-05-24 18:12:08,876 [INFO] src.model_evaluation: Loaded model pipeline: Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('scaler',
+                                                                   StandardScaler())]),
+                                                  ['age', 'daily_rate',
+                                                   'distance_from_home',
+                                                   'education',
+                                                   'environment_satisfaction',
+                                                   'hourly_rate',
+                                                   'job_involvement',
+                                                   'job_level',
+                                                   'job_satisfaction',
+                                                   'monthly_income',
+                                                   'monthly_rate',
+                                                   'num_companies_worked',
+                                                   'overtime',
+                                                   'percent_salary_hike',
+                                                   'p...
+                               feature_types=None, feature_weights=None,
+                               gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=0.1,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=3, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=100, n_jobs=None,
+                               num_parallel_tree=None, ...))])
+2026-05-24 18:12:08,982 [INFO] src.model_evaluation: Saved Plot: Confusion Matrix
+2026-05-24 18:12:09,114 [INFO] src.model_evaluation: Saved Plot: ROC Curve
+2026-05-24 18:12:09,243 [INFO] src.model_evaluation: Saved Plot: Precision-Recall Curve
+2026-05-24 18:12:09,484 [INFO] src.model_evaluation: Saved Plot: Feature Importance
+2026-05-24 18:12:09,484 [INFO] src.model_evaluation: Calculating SHAP explainability values...
+2026-05-24 18:12:09,730 [INFO] src.model_evaluation: Saved Plot: SHAP Summary beeswarm
+2026-05-24 18:12:09,730 [INFO] src.model_evaluation: ==== EXECUTIVE BUSINESS INSIGHTS FROM MODEL ====
+2026-05-24 18:12:09,730 [INFO] src.model_evaluation: 1. OVERTIME IMPACT: Employees working overtime are significantly more likely to leave the organization.
+2026-05-24 18:12:09,730 [INFO] src.model_evaluation: 2. SATISFACTION: Low Job and Environment Satisfaction composite scores serve as the strongest predictors of attrition.
+2026-05-24 18:12:09,731 [INFO] src.model_evaluation: 3. TENURE & AGE: Employees with short tenure (New Hires) and younger employees represent the highest frequency of departures.
+2026-05-24 18:12:09,731 [INFO] src.model_evaluation: 4. CAREER STAGNATION: Employees with high working years relative to their job levels (stalled progression) exhibit elevated attrition risk.
+2026-05-24 18:12:09,731 [INFO] src.model_evaluation: ================================================
+2026-05-24 18:12:09,731 [INFO] main_pipeline: [STAGE 6/8] Generating active flight risk scores and recommendations...
+2026-05-24 18:12:09,731 [INFO] src.prediction_pipeline: Executing prediction and risk scoring pipeline...
+2026-05-24 18:12:09,735 [INFO] src.prediction_pipeline: Generating predictions...
+2026-05-24 18:12:09,738 [INFO] src.prediction_pipeline: Calculating SHAP values for individual risk driver analysis...
+2026-05-24 18:12:09,757 [INFO] src.prediction_pipeline: Successfully generated and exported employee risk scores to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/exports/employee_attrition_risk_scores.csv
+2026-05-24 18:12:09,757 [INFO] src.prediction_pipeline: Summary of Risk Levels:
+RiskLevel
+Low       989
+Medium    301
+High      180
+Name: count, dtype: int64
+2026-05-24 18:12:09,758 [INFO] main_pipeline: [STAGE 7/8] Running employee strategic segmentation...
+2026-05-24 18:12:09,758 [INFO] src.segmentation: Executing employee strategic segmentation pipeline...
+2026-05-24 18:12:09,762 [INFO] src.segmentation: Merged features and risk scores. Enriched shape: (1470, 45)
+2026-05-24 18:12:09,776 [INFO] src.segmentation: Workforce segmentation complete.
+2026-05-24 18:12:09,777 [INFO] src.segmentation: Segment Distribution:
+primary_segment
+Burnout Risk              419
+General Workforce         239
+Champion                  218
+High Performer at Risk    180
+Loyal Employee            180
+New Employee              160
+Disengaged                 74
+2026-05-24 18:12:09,786 [INFO] src.segmentation: Segmented dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/segmented_hr_data.csv
+2026-05-24 18:12:09,786 [INFO] main_pipeline: [STAGE 8/8] Calculating business metrics & writing executive report...
+2026-05-24 18:12:09,786 [INFO] src.business_metrics: Computing business metrics scorecard...
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:12:09,791 [INFO] src.business_metrics:                   ENTERPRISE WORKFORCE SCORECARD                 
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Total Headcount Analyzed      : 1470
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Overall Attrition Rate        : 16.12% (Retention: 83.88%)
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Estimated Attrition Cost Loss : $20,421,738.00
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Active High Risk Headcount    : 18 employees
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Aggregate Workforce Risk Score: 19.60%
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Overtime Attrition Multiplier : 2.93x higher risk
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: Promo Delay Attrition Mult    : 0.81x higher risk
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: --------------------- Department Attrition ----------------------
+2026-05-24 18:12:09,791 [INFO] src.business_metrics:   * Human Resources             : 19.05%
+2026-05-24 18:12:09,791 [INFO] src.business_metrics:   * Research & Development      : 13.84%
+2026-05-24 18:12:09,791 [INFO] src.business_metrics:   * Sales                       : 20.63%
+2026-05-24 18:12:09,791 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:12:09,791 [CRITICAL] main_pipeline: Pipeline crashed during execution: Object of type int64 is not JSON serializable
+Traceback (most recent call last):
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/main.py", line 63, in main
+    calculate_business_metrics(segmented_path)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/src/business_metrics.py", line 119, in calculate_business_metrics
+    json.dump(scorecard, f, indent=4)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 433, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 440, in _iterencode
+    o = _default(o)
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+2026-05-24 18:13:44,257 [INFO] root: Logging initialized. Log file saved at: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/logs/pipeline.log
+2026-05-24 18:13:44,257 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:13:44,257 [INFO] main_pipeline:          STARTING HR ATTRITION Retention INTELLIGENCE SYSTEM      
+2026-05-24 18:13:44,257 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:13:44,257 [INFO] main_pipeline: [STAGE 1/8] Cleaning and validating raw dataset...
+2026-05-24 18:13:44,257 [INFO] src.data_cleaning: Starting data cleaning pipeline...
+2026-05-24 18:13:44,264 [INFO] src.data_cleaning: Loaded raw dataset with shape: (1470, 35)
+2026-05-24 18:13:44,265 [INFO] src.data_cleaning: Column names standardized to snake_case.
+2026-05-24 18:13:44,266 [INFO] src.data_cleaning: No duplicate records found.
+2026-05-24 18:13:44,266 [INFO] src.data_cleaning: No missing values detected in the raw dataset.
+2026-05-24 18:13:44,266 [INFO] src.data_cleaning: Data consistency validation passed successfully.
+2026-05-24 18:13:44,267 [INFO] src.data_cleaning: Mapped target column 'attrition': Yes/No -> 1/0
+2026-05-24 18:13:44,267 [INFO] src.data_cleaning: Mapped feature column 'overtime': Yes/No -> 1/0
+2026-05-24 18:13:44,268 [INFO] src.data_cleaning: Dropping zero-variance columns: ['employee_count', 'over18', 'standard_hours']
+2026-05-24 18:13:44,273 [INFO] src.data_cleaning: Successfully clean and exported data to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv
+2026-05-24 18:13:44,273 [INFO] src.data_cleaning: Cleaned dataset shape: (1470, 32)
+2026-05-24 18:13:44,273 [INFO] src.data_cleaning: Cleaning diagnostics report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/data_cleaning_report.txt
+2026-05-24 18:13:44,273 [INFO] main_pipeline: [STAGE 2/8] Running feature engineering pipeline...
+2026-05-24 18:13:44,273 [INFO] src.feature_engineering: Starting feature engineering pipeline...
+2026-05-24 18:13:44,275 [INFO] src.feature_engineering: Loaded cleaned dataset with shape: (1470, 32)
+2026-05-24 18:13:44,276 [INFO] src.feature_engineering: Feature 1/10: 'income_band' created.
+2026-05-24 18:13:44,276 [INFO] src.feature_engineering: Feature 2/10: 'tenure_group' created.
+2026-05-24 18:13:44,276 [INFO] src.feature_engineering: Feature 3/10: 'promotion_delay_risk' created.
+2026-05-24 18:13:44,276 [INFO] src.feature_engineering: Feature 4/10: 'overtime_risk_score' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 5/10: 'work_life_balance_risk' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 6/10: 'satisfaction_composite_score' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 7/10: 'manager_stability_score' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 8/10: 'career_growth_risk_indicator' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 9/10: 'travel_burden_score' created.
+2026-05-24 18:13:44,277 [INFO] src.feature_engineering: Feature 10/10: 'burnout_risk_index' created.
+2026-05-24 18:13:44,284 [INFO] src.feature_engineering: Enriched dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/cleaned_hr_data.csv (Shape: (1470, 42))
+2026-05-24 18:13:44,284 [INFO] main_pipeline: [STAGE 3/8] Generating corporate visualization plots...
+2026-05-24 18:13:44,284 [INFO] src.exploratory_analysis: Starting EDA visualization pipeline...
+2026-05-24 18:13:44,287 [INFO] src.exploratory_analysis: Loaded dataset for EDA with shape: (1470, 42)
+2026-05-24 18:13:44,502 [INFO] src.exploratory_analysis: Saved Plot 1: Attrition Distribution
+2026-05-24 18:13:44,636 [INFO] src.exploratory_analysis: Saved Plot 2: Department Attrition
+2026-05-24 18:13:44,799 [INFO] src.exploratory_analysis: Saved Plot 3: Salary vs Attrition
+2026-05-24 18:13:44,983 [INFO] src.exploratory_analysis: Saved Plot 4: Job Role Attrition
+2026-05-24 18:13:45,095 [INFO] src.exploratory_analysis: Saved Plot 5: Overtime Impact
+2026-05-24 18:13:45,226 [INFO] src.exploratory_analysis: Saved Plot 6: Satisfaction Analysis
+2026-05-24 18:13:45,546 [INFO] src.exploratory_analysis: Saved Plot 7: Correlation Heatmap
+2026-05-24 18:13:45,720 [INFO] src.exploratory_analysis: Saved Plot 8: Age vs Attrition
+2026-05-24 18:13:45,877 [INFO] src.exploratory_analysis: Saved Plot 9: Tenure Distribution
+2026-05-24 18:13:46,001 [INFO] src.exploratory_analysis: Saved Plot 10: Business Travel Impact
+2026-05-24 18:13:46,001 [INFO] src.exploratory_analysis: All 10 EDA plots generated and saved in: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/reports/figures
+2026-05-24 18:13:46,001 [INFO] main_pipeline: [STAGE 4/8] Training, tuning, and selecting champion classifier...
+2026-05-24 18:13:46,001 [INFO] src.model_training: Starting machine learning model training pipeline...
+2026-05-24 18:13:46,004 [INFO] src.model_training: Categorical features (8): ['business_travel', 'department', 'education_field', 'gender', 'job_role', 'marital_status', 'income_band', 'tenure_group']
+2026-05-24 18:13:46,004 [INFO] src.model_training: Numerical features (32): ['age', 'daily_rate', 'distance_from_home', 'education', 'environment_satisfaction', 'hourly_rate', 'job_involvement', 'job_level', 'job_satisfaction', 'monthly_income', 'monthly_rate', 'num_companies_worked', 'overtime', 'percent_salary_hike', 'performance_rating', 'relationship_satisfaction', 'stock_option_level', 'total_working_years', 'training_times_last_year', 'work_life_balance', 'years_at_company', 'years_in_current_role', 'years_since_last_promotion', 'years_with_curr_manager', 'promotion_delay_risk', 'overtime_risk_score', 'work_life_balance_risk', 'satisfaction_composite_score', 'manager_stability_score', 'career_growth_risk_indicator', 'travel_burden_score', 'burnout_risk_index']
+2026-05-24 18:13:46,005 [INFO] src.model_training: Train set size: 1102 | Test set size: 368
+2026-05-24 18:13:46,005 [INFO] src.model_training: Class ratio (Negative/Positive) in train set: 5.19
+2026-05-24 18:13:46,005 [INFO] src.model_training: Tuning hyper-parameters for logistic_regression...
+2026-05-24 18:13:47,916 [INFO] src.model_training: Best parameters for logistic_regression: {'classifier__C': 10.0, 'classifier__max_iter': 1000, 'classifier__penalty': 'l2', 'classifier__solver': 'lbfgs'}
+2026-05-24 18:13:47,921 [INFO] src.model_training: [LOGISTIC_REGRESSION] Metrics -> Acc: 0.8614 | Prec: 0.6333 | Rec: 0.3220 | F1: 0.4270 | AUC: 0.8226
+2026-05-24 18:13:47,921 [INFO] src.model_training: Tuning hyper-parameters for random_forest...
+2026-05-24 18:13:52,042 [INFO] src.model_training: Best parameters for random_forest: {'classifier__class_weight': 'balanced', 'classifier__max_depth': 6, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 300}
+2026-05-24 18:13:52,060 [INFO] src.model_training: [RANDOM_FOREST] Metrics -> Acc: 0.8397 | Prec: 0.5000 | Rec: 0.4237 | F1: 0.4587 | AUC: 0.7868
+2026-05-24 18:13:52,060 [INFO] src.model_training: Tuning hyper-parameters for xgboost...
+2026-05-24 18:13:53,521 [INFO] src.model_training: Best parameters for xgboost: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 1.0}
+2026-05-24 18:13:53,527 [INFO] src.model_training: [XGBOOST] Metrics -> Acc: 0.8152 | Prec: 0.4328 | Rec: 0.4915 | F1: 0.4603 | AUC: 0.7779
+2026-05-24 18:13:53,527 [INFO] src.model_training: Tuning hyper-parameters for gradient_boosting...
+2026-05-24 18:14:04,048 [INFO] src.model_training: Best parameters for gradient_boosting: {'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200, 'classifier__subsample': 1.0}
+2026-05-24 18:14:04,056 [INFO] src.model_training: [GRADIENT_BOOSTING] Metrics -> Acc: 0.8614 | Prec: 0.6667 | Rec: 0.2712 | F1: 0.3855 | AUC: 0.7990
+2026-05-24 18:14:04,056 [INFO] src.model_training: *** CHAMPION MODEL SELECTED: XGBOOST (F1-score: 0.4603) ***
+2026-05-24 18:14:04,057 [INFO] src.model_training: Serialized champion pipeline saved to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/models/best_attrition_model.pkl
+2026-05-24 18:14:04,059 [INFO] src.model_training: 
+                     accuracy  precision    recall  f1_score   roc_auc
+logistic_regression  0.861413   0.633333  0.322034  0.426966  0.822555
+random_forest        0.839674   0.500000  0.423729  0.458716  0.786847
+xgboost              0.815217   0.432836  0.491525  0.460317  0.777906
+gradient_boosting    0.861413   0.666667  0.271186  0.385542  0.799024
+2026-05-24 18:14:04,059 [INFO] main_pipeline: [STAGE 5/8] Running model explainability (SHAP) & evaluation...
+2026-05-24 18:14:04,059 [INFO] src.model_evaluation: Starting model evaluation and explainability pipeline...
+2026-05-24 18:14:04,064 [INFO] src.model_evaluation: Loaded model pipeline: Pipeline(steps=[('preprocessor',
+                 ColumnTransformer(transformers=[('num',
+                                                  Pipeline(steps=[('scaler',
+                                                                   StandardScaler())]),
+                                                  ['age', 'daily_rate',
+                                                   'distance_from_home',
+                                                   'education',
+                                                   'environment_satisfaction',
+                                                   'hourly_rate',
+                                                   'job_involvement',
+                                                   'job_level',
+                                                   'job_satisfaction',
+                                                   'monthly_income',
+                                                   'monthly_rate',
+                                                   'num_companies_worked',
+                                                   'overtime',
+                                                   'percent_salary_hike',
+                                                   'p...
+                               feature_types=None, feature_weights=None,
+                               gamma=None, grow_policy=None,
+                               importance_type=None,
+                               interaction_constraints=None, learning_rate=0.1,
+                               max_bin=None, max_cat_threshold=None,
+                               max_cat_to_onehot=None, max_delta_step=None,
+                               max_depth=3, max_leaves=None,
+                               min_child_weight=None, missing=nan,
+                               monotone_constraints=None, multi_strategy=None,
+                               n_estimators=100, n_jobs=None,
+                               num_parallel_tree=None, ...))])
+2026-05-24 18:14:04,169 [INFO] src.model_evaluation: Saved Plot: Confusion Matrix
+2026-05-24 18:14:04,302 [INFO] src.model_evaluation: Saved Plot: ROC Curve
+2026-05-24 18:14:04,432 [INFO] src.model_evaluation: Saved Plot: Precision-Recall Curve
+2026-05-24 18:14:04,681 [INFO] src.model_evaluation: Saved Plot: Feature Importance
+2026-05-24 18:14:04,681 [INFO] src.model_evaluation: Calculating SHAP explainability values...
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: Saved Plot: SHAP Summary beeswarm
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: ==== EXECUTIVE BUSINESS INSIGHTS FROM MODEL ====
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: 1. OVERTIME IMPACT: Employees working overtime are significantly more likely to leave the organization.
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: 2. SATISFACTION: Low Job and Environment Satisfaction composite scores serve as the strongest predictors of attrition.
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: 3. TENURE & AGE: Employees with short tenure (New Hires) and younger employees represent the highest frequency of departures.
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: 4. CAREER STAGNATION: Employees with high working years relative to their job levels (stalled progression) exhibit elevated attrition risk.
+2026-05-24 18:14:04,932 [INFO] src.model_evaluation: ================================================
+2026-05-24 18:14:04,932 [INFO] main_pipeline: [STAGE 6/8] Generating active flight risk scores and recommendations...
+2026-05-24 18:14:04,932 [INFO] src.prediction_pipeline: Executing prediction and risk scoring pipeline...
+2026-05-24 18:14:04,937 [INFO] src.prediction_pipeline: Generating predictions...
+2026-05-24 18:14:04,940 [INFO] src.prediction_pipeline: Calculating SHAP values for individual risk driver analysis...
+2026-05-24 18:14:04,958 [INFO] src.prediction_pipeline: Successfully generated and exported employee risk scores to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/exports/employee_attrition_risk_scores.csv
+2026-05-24 18:14:04,958 [INFO] src.prediction_pipeline: Summary of Risk Levels:
+RiskLevel
+Low       989
+Medium    301
+High      180
+Name: count, dtype: int64
+2026-05-24 18:14:04,959 [INFO] main_pipeline: [STAGE 7/8] Running employee strategic segmentation...
+2026-05-24 18:14:04,959 [INFO] src.segmentation: Executing employee strategic segmentation pipeline...
+2026-05-24 18:14:04,963 [INFO] src.segmentation: Merged features and risk scores. Enriched shape: (1470, 45)
+2026-05-24 18:14:04,978 [INFO] src.segmentation: Workforce segmentation complete.
+2026-05-24 18:14:04,978 [INFO] src.segmentation: Segment Distribution:
+primary_segment
+Burnout Risk              419
+General Workforce         239
+Champion                  218
+High Performer at Risk    180
+Loyal Employee            180
+New Employee              160
+Disengaged                 74
+2026-05-24 18:14:04,987 [INFO] src.segmentation: Segmented dataset exported successfully to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/processed/segmented_hr_data.csv
+2026-05-24 18:14:04,987 [INFO] main_pipeline: [STAGE 8/8] Calculating business metrics & writing executive report...
+2026-05-24 18:14:04,987 [INFO] src.business_metrics: Computing business metrics scorecard...
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:14:04,992 [INFO] src.business_metrics:                   ENTERPRISE WORKFORCE SCORECARD                 
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Total Headcount Analyzed      : 1470
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Overall Attrition Rate        : 16.12% (Retention: 83.88%)
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Estimated Attrition Cost Loss : $20,421,738.00
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Active High Risk Headcount    : 18 employees
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Aggregate Workforce Risk Score: 19.60%
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Overtime Attrition Multiplier : 2.93x higher risk
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Promo Delay Attrition Mult    : 0.81x higher risk
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: --------------------- Department Attrition ----------------------
+2026-05-24 18:14:04,992 [INFO] src.business_metrics:   * Human Resources             : 19.05%
+2026-05-24 18:14:04,992 [INFO] src.business_metrics:   * Research & Development      : 13.84%
+2026-05-24 18:14:04,992 [INFO] src.business_metrics:   * Sales                       : 20.63%
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: ==================================================================
+2026-05-24 18:14:04,992 [INFO] src.business_metrics: Workforce scorecard exported to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/data/exports/workforce_scorecard.json
+2026-05-24 18:14:04,993 [INFO] src.reporting: Generating executive insights report...
+2026-05-24 18:14:04,993 [INFO] src.reporting: Executive insights report written to: /Users/kirthinathragunath/PROJECTS/hr_attrition_intelligence/reports/insights_report.md
+2026-05-24 18:14:04,993 [INFO] main_pipeline: ==================================================================
+2026-05-24 18:14:04,993 [INFO] main_pipeline:    PIPELINE COMPLETED SUCCESSFULLY IN 20.74 SECONDS   
+2026-05-24 18:14:04,993 [INFO] main_pipeline: ==================================================================

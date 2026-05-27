@@ -1,0 +1,1471 @@
+EmployeeID,AttritionProbability,RiskLevel,TopRiskFactors,RecommendedRetentionAction
+1,0.7936,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2,0.0429,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+4,0.8639,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+5,0.6913,Medium,Burnout Risk Index; Stock Option Level; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+7,0.4166,Medium,Num Companies Worked; Age; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+8,0.1846,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+10,0.2786,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+11,0.5893,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+12,0.082,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+13,0.1336,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+14,0.1612,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+15,0.2847,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+16,0.188,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+18,0.065,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+19,0.9334,High,Burnout Risk Index; Monthly Income; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+20,0.1269,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+21,0.1171,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+22,0.4267,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+23,0.0393,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+24,0.2187,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+26,0.0301,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+27,0.3972,Medium,Num Companies Worked; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+28,0.0986,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+30,0.5209,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+31,0.2852,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+32,0.0707,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+33,0.9422,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+35,0.1402,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+36,0.0731,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+38,0.1609,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+39,0.1991,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+40,0.0286,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+41,0.0966,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+42,0.7393,High,Monthly Income; Work Life Balance; Manager Stability Score,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+45,0.8994,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+46,0.0184,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+47,0.7597,High,Burnout Risk Index; Stock Option Level; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+49,0.3311,Medium,Monthly Income; Total Working Years; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+51,0.1851,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+52,0.1444,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+53,0.3151,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+54,0.6661,Medium,Manager Stability Score; Total Working Years; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+55,0.891,High,Total Working Years; Stock Option Level; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+56,0.2251,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+57,0.131,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+58,0.1194,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+60,0.0413,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+61,0.5996,Medium,Satisfaction Composite Score; Manager Stability Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+62,0.476,Medium,Burnout Risk Index; Stock Option Level; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+63,0.1173,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+64,0.8399,High,Burnout Risk Index; Manager Stability Score; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+65,0.8817,High,Burnout Risk Index; Stock Option Level; Total Working Years,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+68,0.3071,Medium,Burnout Risk Index; Num Companies Worked; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+70,0.1712,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+72,0.6,Medium,Burnout Risk Index; Num Companies Worked; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+73,0.2608,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+74,0.3056,Medium,Burnout Risk Index; Department Research & Development; Career Growth Risk Indicator,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+75,0.3222,Medium,Burnout Risk Index; Overtime Risk Score; Travel Burden Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+76,0.0671,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+77,0.0446,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+78,0.1155,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+79,0.5713,Medium,Travel Burden Score; Monthly Income; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+80,0.0871,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+81,0.3966,Medium,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+83,0.0692,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+84,0.1054,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+85,0.1051,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+86,0.0592,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+88,0.392,Medium,Burnout Risk Index; Monthly Income; Career Growth Risk Indicator,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+90,0.4461,Medium,Burnout Risk Index; Manager Stability Score; Training Times Last Year,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+91,0.2411,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+94,0.0261,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+95,0.3525,Medium,Manager Stability Score; Stock Option Level; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+96,0.028,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+97,0.1125,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+98,0.0371,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+100,0.1653,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+101,0.0983,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+102,0.1072,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+103,0.1967,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+104,0.2958,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+105,0.0642,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+106,0.2778,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+107,0.0363,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+110,0.1974,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+112,0.0741,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+113,0.6592,Medium,Manager Stability Score; Monthly Income; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+116,0.0903,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+117,0.0786,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+118,0.4277,Medium,Career Growth Risk Indicator; Stock Option Level; Department Research & Development,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+119,0.1331,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+120,0.5587,Medium,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+121,0.2083,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+124,0.2358,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+125,0.2266,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+126,0.1214,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+128,0.2492,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+129,0.1693,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+131,0.0977,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+132,0.086,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+133,0.8679,High,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+134,0.3397,Medium,Manager Stability Score; Total Working Years; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+137,0.9434,High,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+138,0.0517,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+139,0.0556,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+140,0.0303,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+141,0.1738,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+142,0.746,High,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+143,0.074,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+144,0.7134,High,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+145,0.256,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+147,0.7949,High,Burnout Risk Index; Environment Satisfaction; Job Involvement,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+148,0.1104,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+150,0.0924,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+151,0.1125,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+152,0.1114,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+153,0.11,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+154,0.1047,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+155,0.4358,Medium,Manager Stability Score; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+158,0.0347,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+159,0.1675,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+160,0.1068,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+161,0.3426,Medium,Burnout Risk Index; Num Companies Worked; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+162,0.1276,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+163,0.9682,High,Burnout Risk Index; Stock Option Level; Job Involvement,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+164,0.3111,Medium,Stock Option Level; Monthly Income; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+165,0.0519,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+167,0.9805,High,Burnout Risk Index; Monthly Income; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+169,0.0933,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+170,0.1819,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+171,0.0997,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+174,0.2692,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+175,0.5484,Medium,Burnout Risk Index; Job Involvement; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+176,0.1316,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+177,0.2424,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+178,0.1637,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+179,0.2174,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+182,0.1161,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+183,0.4785,Medium,Stock Option Level; Environment Satisfaction; Department Research & Development,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+184,0.3946,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+190,0.9011,High,Work Life Balance; Satisfaction Composite Score; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+192,0.1243,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+193,0.1577,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+194,0.3024,Medium,Stock Option Level; Environment Satisfaction; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+195,0.1147,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+197,0.1001,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+198,0.0733,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+199,0.2478,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+200,0.1165,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+201,0.7434,High,Manager Stability Score; Total Working Years; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+202,0.0637,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+204,0.0991,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+205,0.5726,Medium,Burnout Risk Index; Monthly Income; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+206,0.2657,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+207,0.3152,Medium,Stock Option Level; Department Research & Development; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+208,0.0732,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+211,0.0759,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+214,0.2665,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+215,0.2065,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+216,0.3186,Medium,Num Companies Worked; Monthly Income; Department Research & Development,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+217,0.1346,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+218,0.1334,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+221,0.0922,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+223,0.2213,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+224,0.292,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+226,0.189,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+227,0.1094,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+228,0.1437,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+230,0.1235,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+231,0.0499,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+233,0.135,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+235,0.9484,High,Work Life Balance; Manager Stability Score; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+238,0.3964,Medium,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+239,0.0847,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+240,0.2851,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+241,0.1065,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+242,0.1218,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+243,0.8978,High,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+244,0.0597,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+245,0.1586,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+246,0.1228,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+247,0.0742,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+248,0.6297,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+249,0.0566,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+250,0.0328,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+252,0.0405,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+253,0.0546,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+254,0.14,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+256,0.1075,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+258,0.0668,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+259,0.0602,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+260,0.163,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+261,0.8574,High,Burnout Risk Index; Satisfaction Composite Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+262,0.0196,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+264,0.0844,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+267,0.1956,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+269,0.296,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+270,0.0157,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+271,0.0441,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+273,0.1567,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+274,0.3466,Medium,Manager Stability Score; Num Companies Worked; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+275,0.1036,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+277,0.2512,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+281,0.2031,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+282,0.7765,High,Burnout Risk Index; Satisfaction Composite Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+283,0.4149,Medium,Department Research & Development; Hourly Rate; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+284,0.4514,Medium,Burnout Risk Index; Monthly Income; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+286,0.3949,Medium,Stock Option Level; Monthly Income; Relationship Satisfaction,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+287,0.0472,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+288,0.1474,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+291,0.686,Medium,Job Involvement; Stock Option Level; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+292,0.0293,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+293,0.1763,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+296,0.2192,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+297,0.7838,High,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+298,0.0829,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+299,0.9503,High,Burnout Risk Index; Travel Burden Score; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+300,0.0572,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+302,0.0735,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+303,0.0807,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+304,0.0824,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+305,0.2931,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+306,0.158,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+307,0.0866,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+308,0.0157,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+309,0.0523,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+311,0.2389,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+312,0.2052,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+314,0.0785,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+315,0.5601,Medium,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+316,0.1593,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+319,0.0391,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+321,0.2696,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+323,0.0295,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+325,0.8849,High,Burnout Risk Index; Num Companies Worked; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+327,0.0719,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+328,0.7969,High,Work Life Balance; Satisfaction Composite Score; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+329,0.1259,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+330,0.4194,Medium,Satisfaction Composite Score; Age; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+331,0.6544,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+332,0.0778,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+333,0.1187,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+334,0.1622,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+335,0.1455,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+336,0.0126,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+337,0.444,Medium,Num Companies Worked; Age; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+338,0.0694,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+339,0.1676,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+340,0.0353,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+341,0.0365,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+342,0.7375,High,Manager Stability Score; Num Companies Worked; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+343,0.0845,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+346,0.0894,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+347,0.2672,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+349,0.134,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+350,0.0317,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+351,0.3194,Medium,Burnout Risk Index; Hourly Rate; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+352,0.03,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+353,0.074,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+355,0.794,High,Travel Burden Score; Work Life Balance; Stock Option Level,Transition employee to hybrid/remote work arrangement; reduce business travel frequency by 25%.
+359,0.6764,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+361,0.0525,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+362,0.209,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+363,0.2432,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+364,0.8233,High,Manager Stability Score; Stock Option Level; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+366,0.2616,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+367,0.0907,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+369,0.0212,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+372,0.1114,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+373,0.0444,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+374,0.1103,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+376,0.6402,Medium,Burnout Risk Index; Environment Satisfaction; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+377,0.0416,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+378,0.0817,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+379,0.6205,Medium,Work Life Balance; Manager Stability Score; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+380,0.0713,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+381,0.1091,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+382,0.2729,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+384,0.2963,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+385,0.0663,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+386,0.1237,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+387,0.0349,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+388,0.4312,Medium,Stock Option Level; Relationship Satisfaction; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+389,0.0977,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+390,0.5512,Medium,Burnout Risk Index; Satisfaction Composite Score; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+391,0.0126,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+392,0.9039,High,Burnout Risk Index; Manager Stability Score; Training Times Last Year,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+393,0.1312,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+394,0.8129,High,Burnout Risk Index; Monthly Income; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+395,0.0245,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+396,0.3413,Medium,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+397,0.1798,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+399,0.5682,Medium,Burnout Risk Index; Total Working Years; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+401,0.7491,High,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+403,0.4555,Medium,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+404,0.079,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+405,0.8334,High,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+406,0.1421,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+407,0.224,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+408,0.1013,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+410,0.0625,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+411,0.8606,High,Monthly Income; Manager Stability Score; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+412,0.2455,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+416,0.1124,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+417,0.0152,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+419,0.0708,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+420,0.1209,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+421,0.0828,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+422,0.103,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+423,0.0449,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+424,0.7663,High,Manager Stability Score; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+425,0.1873,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+426,0.1777,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+428,0.2637,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+429,0.363,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+430,0.0738,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+431,0.134,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+433,0.7663,High,Stock Option Level; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+434,0.7083,High,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+436,0.5651,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+437,0.3126,Medium,Stock Option Level; Relationship Satisfaction; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+438,0.0859,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+439,0.2483,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+440,0.9617,High,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+441,0.03,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+442,0.1884,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+444,0.1747,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+445,0.8585,High,Burnout Risk Index; Stock Option Level; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+446,0.2243,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+447,0.0475,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+448,0.1109,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+449,0.0533,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+450,0.1826,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+451,0.5022,Medium,Manager Stability Score; Satisfaction Composite Score; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+452,0.0805,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+453,0.285,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+454,0.9621,High,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+455,0.1086,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+456,0.0662,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+458,0.139,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+460,0.0866,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+461,0.0925,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+462,0.262,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+463,0.3747,Medium,Burnout Risk Index; Overtime Risk Score; Hourly Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+464,0.0353,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+465,0.0499,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+466,0.5859,Medium,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+467,0.6128,Medium,Manager Stability Score; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+468,0.0989,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+469,0.0866,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+470,0.2972,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+471,0.099,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+473,0.3646,Medium,Burnout Risk Index; Manager Stability Score; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+474,0.094,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+475,0.1977,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+476,0.0691,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+477,0.064,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+478,0.8954,High,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+479,0.0771,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+481,0.2414,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+482,0.0164,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+483,0.0672,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+484,0.3218,Medium,Environment Satisfaction; Stock Option Level; Career Growth Risk Indicator,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+485,0.8768,High,Total Working Years; Manager Stability Score; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+486,0.1385,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+487,0.0245,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+488,0.6958,Medium,Stock Option Level; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+491,0.0349,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+492,0.8157,High,Burnout Risk Index; Manager Stability Score; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+493,0.5851,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+494,0.894,High,Manager Stability Score; Training Times Last Year; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+495,0.255,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+496,0.3809,Medium,Num Companies Worked; Manager Stability Score; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+497,0.067,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+498,0.0758,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+499,0.05,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+500,0.0594,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+501,0.0393,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+502,0.7703,High,Num Companies Worked; Stock Option Level; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+505,0.0484,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+507,0.0867,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+508,0.5519,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+510,0.2542,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+511,0.1675,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+513,0.265,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+514,0.9135,High,Burnout Risk Index; Num Companies Worked; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+515,0.1181,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+516,0.1536,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+517,0.0566,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+518,0.2301,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+520,0.026,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+521,0.1366,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+522,0.128,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+523,0.1343,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+524,0.0939,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+525,0.2969,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+526,0.1121,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+527,0.6106,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+529,0.0692,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+530,0.093,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+531,0.0862,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+532,0.1939,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+533,0.2278,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+534,0.0558,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+536,0.1071,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+538,0.5871,Medium,Num Companies Worked; Satisfaction Composite Score; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+543,0.4009,Medium,Burnout Risk Index; Stock Option Level; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+544,0.053,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+546,0.0415,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+547,0.0816,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+548,0.0481,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+549,0.3278,Medium,Stock Option Level; Burnout Risk Index; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+550,0.0259,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+551,0.0565,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+554,0.8298,High,Stock Option Level; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+555,0.8817,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+556,0.3995,Medium,Monthly Income; Manager Stability Score; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+558,0.0135,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+560,0.1497,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+562,0.0455,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+564,0.0539,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+565,0.7052,High,Work Life Balance; Num Companies Worked; Stock Option Level,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+566,0.9147,High,Manager Stability Score; Work Life Balance; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+567,0.2234,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+568,0.2838,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+569,0.0314,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+571,0.0259,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+573,0.1765,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+574,0.0476,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+575,0.185,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+577,0.1194,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+578,0.1476,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+579,0.0313,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+580,0.263,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+581,0.0973,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+582,0.7369,High,Num Companies Worked; Stock Option Level; Work Life Balance,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+584,0.8399,High,Job Involvement; Environment Satisfaction; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+585,0.3955,Medium,Stock Option Level; Age; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+586,0.4386,Medium,Burnout Risk Index; Stock Option Level; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+587,0.884,High,Manager Stability Score; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+590,0.7628,High,Burnout Risk Index; Num Companies Worked; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+591,0.2588,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+592,0.0858,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+593,0.449,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+595,0.1065,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+597,0.1973,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+599,0.0773,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+600,0.1147,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+601,0.0378,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+602,0.1839,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+604,0.1156,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+605,0.3147,Medium,Burnout Risk Index; Daily Rate; Years Since Last Promotion,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+606,0.2168,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+608,0.8613,High,Burnout Risk Index; Manager Stability Score; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+611,0.152,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+612,0.0139,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+613,0.4926,Medium,Num Companies Worked; Age; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+614,0.9718,High,Burnout Risk Index; Monthly Income; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+615,0.089,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+616,0.3028,Medium,Environment Satisfaction; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+618,0.7276,High,Manager Stability Score; Num Companies Worked; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+620,0.0991,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+621,0.144,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+622,0.9844,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+623,0.0321,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+624,0.3432,Medium,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+625,0.0846,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+626,0.1922,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+630,0.0399,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+631,0.6647,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+632,0.2134,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+634,0.0321,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+635,0.098,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+638,0.0346,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+639,0.0685,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+641,0.2925,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+643,0.7546,High,Manager Stability Score; Total Working Years; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+644,0.0782,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+645,0.2918,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+647,0.5283,Medium,Burnout Risk Index; Environment Satisfaction; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+648,0.9287,High,Monthly Income; Manager Stability Score; Work Life Balance,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+649,0.0808,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+650,0.7705,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+652,0.2732,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+653,0.1902,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+655,0.0535,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+656,0.4927,Medium,Burnout Risk Index; Manager Stability Score; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+657,0.2212,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+659,0.046,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+661,0.1544,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+662,0.18,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+663,0.1862,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+664,0.0952,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+665,0.1423,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+666,0.3812,Medium,Burnout Risk Index; Department Research & Development; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+667,0.4307,Medium,Satisfaction Composite Score; Age; Department Research & Development,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+669,0.4379,Medium,Stock Option Level; Age; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+671,0.0927,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+675,0.1092,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+677,0.1158,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+679,0.2406,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+680,0.3897,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+682,0.1631,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+683,0.014,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+684,0.8887,High,Travel Burden Score; Burnout Risk Index; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+686,0.176,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+689,0.098,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+690,0.1381,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+691,0.0363,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+692,0.0541,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+698,0.3601,Medium,Work Life Balance; Years Since Last Promotion; Daily Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+699,0.1584,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+700,0.0328,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+701,0.8545,High,Stock Option Level; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+702,0.8325,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+704,0.1596,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+705,0.3918,Medium,Work Life Balance; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+707,0.0737,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+709,0.0412,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+710,0.055,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+712,0.26,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+714,0.0763,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+715,0.1042,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+716,0.0909,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+717,0.2045,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+720,0.7118,High,Satisfaction Composite Score; Stock Option Level; Manager Stability Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+721,0.0557,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+722,0.1766,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+723,0.6497,Medium,Burnout Risk Index; Satisfaction Composite Score; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+724,0.0159,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+725,0.0563,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+727,0.0715,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+728,0.1652,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+729,0.4065,Medium,Burnout Risk Index; Num Companies Worked; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+730,0.0194,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+731,0.2014,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+732,0.6431,Medium,Stock Option Level; Num Companies Worked; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+733,0.2031,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+734,0.0371,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+738,0.2448,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+741,0.9061,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+742,0.094,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+743,0.0354,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+744,0.2661,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+746,0.3489,Medium,Burnout Risk Index; Num Companies Worked; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+747,0.3625,Medium,Num Companies Worked; Age; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+749,0.6274,Medium,Manager Stability Score; Total Working Years; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+752,0.6454,Medium,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+754,0.1835,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+757,0.0335,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+758,0.3333,Medium,Work Life Balance; Monthly Income; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+760,0.1901,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+762,0.164,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+763,0.3484,Medium,Burnout Risk Index; Stock Option Level; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+764,0.7933,High,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+766,0.3652,Medium,Total Working Years; Monthly Income; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+769,0.0566,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+771,0.0393,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+772,0.1772,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+773,0.5798,Medium,Burnout Risk Index; Num Companies Worked; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+775,0.1359,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+776,0.0856,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+780,0.2552,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+781,0.2956,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+783,0.1805,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+784,0.3124,Medium,Stock Option Level; Total Working Years; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+785,0.8744,High,Burnout Risk Index; Travel Burden Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+786,0.1389,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+787,0.5775,Medium,Burnout Risk Index; Num Companies Worked; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+789,0.155,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+791,0.0347,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+792,0.61,Medium,Manager Stability Score; Satisfaction Composite Score; Job Involvement,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+793,0.3559,Medium,Relationship Satisfaction; Satisfaction Composite Score; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+796,0.7144,High,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+797,0.0105,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+799,0.3046,Medium,Burnout Risk Index; Num Companies Worked; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+800,0.1043,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+802,0.2547,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+803,0.6142,Medium,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+804,0.0815,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+805,0.1463,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+806,0.0786,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+807,0.0431,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+808,0.2551,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+809,0.1087,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+811,0.8336,High,Monthly Income; Manager Stability Score; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+812,0.3343,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+813,0.1044,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+815,0.0327,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+816,0.9103,High,Manager Stability Score; Burnout Risk Index; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+817,0.0507,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+819,0.8017,High,Num Companies Worked; Stock Option Level; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+820,0.0672,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+823,0.0668,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+824,0.0228,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+825,0.6791,Medium,Num Companies Worked; Stock Option Level; Burnout Risk Index,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+826,0.0149,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+827,0.0374,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+828,0.5847,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+829,0.1745,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+830,0.0352,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+832,0.601,Medium,Manager Stability Score; Num Companies Worked; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+833,0.6927,Medium,Burnout Risk Index; Num Companies Worked; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+834,0.1584,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+836,0.0941,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+837,0.2449,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+838,0.0849,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+840,0.7005,High,Work Life Balance; Relationship Satisfaction; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+842,0.5939,Medium,Stock Option Level; Years Since Last Promotion; Promotion Delay Risk,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+843,0.1162,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+844,0.1263,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+845,0.0498,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+846,0.7361,High,Stock Option Level; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+847,0.0716,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+848,0.726,High,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+850,0.164,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+851,0.1049,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+852,0.2696,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+854,0.7146,High,Num Companies Worked; Stock Option Level; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+855,0.1139,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+856,0.3194,Medium,Burnout Risk Index; Stock Option Level; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+857,0.0843,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+859,0.0926,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+861,0.1232,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+862,0.3251,Medium,Burnout Risk Index; Num Companies Worked; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+864,0.2365,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+865,0.0623,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+867,0.044,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+868,0.3208,Medium,Manager Stability Score; Department Research & Development; Daily Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+869,0.1003,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+872,0.1688,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+874,0.0801,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+875,0.3887,Medium,Stock Option Level; Num Companies Worked; Promotion Delay Risk,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+878,0.2982,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+879,0.5591,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+880,0.0867,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+881,0.6799,Medium,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+882,0.0529,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+885,0.4033,Medium,Satisfaction Composite Score; Work Life Balance; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+887,0.0491,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+888,0.0481,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+889,0.2428,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+893,0.0969,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+894,0.0206,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+895,0.0803,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+896,0.6892,Medium,Burnout Risk Index; Num Companies Worked; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+897,0.2105,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+899,0.3316,Medium,Stock Option Level; Relationship Satisfaction; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+900,0.194,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+901,0.0604,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+902,0.0999,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+903,0.1724,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+904,0.5065,Medium,Stock Option Level; Environment Satisfaction; Department Research & Development,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+905,0.0634,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+909,0.1184,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+910,0.4881,Medium,Work Life Balance; Monthly Income; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+911,0.9594,High,Burnout Risk Index; Total Working Years; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+912,0.2648,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+913,0.6069,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+916,0.1979,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+918,0.965,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+920,0.4496,Medium,Work Life Balance; Manager Stability Score; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+922,0.7203,High,Monthly Income; Total Working Years; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+923,0.6451,Medium,Manager Stability Score; Stock Option Level; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+924,0.0998,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+925,0.7293,High,Burnout Risk Index; Stock Option Level; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+926,0.7165,High,Work Life Balance; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+927,0.8915,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+930,0.1215,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+932,0.9355,High,Burnout Risk Index; Num Companies Worked; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+933,0.4142,Medium,Manager Stability Score; Total Working Years; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+934,0.6353,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+936,0.2793,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+939,0.6468,Medium,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+940,0.098,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+941,0.3111,Medium,Work Life Balance; Monthly Income; Department Research & Development,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+942,0.1886,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+944,0.285,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+945,0.0871,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+947,0.1288,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+949,0.0257,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+950,0.0187,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+951,0.1047,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+952,0.95,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+954,0.6385,Medium,Manager Stability Score; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+956,0.4084,Medium,Satisfaction Composite Score; Stock Option Level; Department Research & Development,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+957,0.2123,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+958,0.0428,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+959,0.9653,High,Work Life Balance; Manager Stability Score; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+960,0.8841,High,Manager Stability Score; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+961,0.2087,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+964,0.3027,Medium,Burnout Risk Index; Num Companies Worked; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+966,0.1167,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+967,0.6283,Medium,Burnout Risk Index; Relationship Satisfaction; Years Since Last Promotion,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+969,0.0817,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+970,0.8274,High,Num Companies Worked; Stock Option Level; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+972,0.0248,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+974,0.2527,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+975,0.2042,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+976,0.0231,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+977,0.0998,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+981,0.1439,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+982,0.5331,Medium,Num Companies Worked; Work Life Balance; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+983,0.0819,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+984,0.1845,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+985,0.1249,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+986,0.7736,High,Burnout Risk Index; Stock Option Level; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+987,0.0549,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+990,0.0806,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+991,0.8316,High,Burnout Risk Index; Satisfaction Composite Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+992,0.1121,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+994,0.904,High,Burnout Risk Index; Monthly Income; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+995,0.1114,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+996,0.0246,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+997,0.0222,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+998,0.1367,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+999,0.0349,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1001,0.315,Medium,Num Companies Worked; Age; Hourly Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1002,0.1892,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1003,0.193,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1004,0.8937,High,Burnout Risk Index; Satisfaction Composite Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1005,0.043,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1006,0.0809,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1007,0.1441,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1009,0.1029,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1010,0.8129,High,Burnout Risk Index; Career Growth Risk Indicator; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1011,0.0858,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1012,0.3369,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1013,0.064,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1014,0.3381,Medium,Burnout Risk Index; Manager Stability Score; Travel Burden Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1015,0.1089,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1016,0.9579,High,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1017,0.4783,Medium,Satisfaction Composite Score; Stock Option Level; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1018,0.0307,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1019,0.327,Medium,Satisfaction Composite Score; Job Involvement; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1022,0.0865,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1024,0.0596,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1025,0.0458,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1026,0.0361,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1027,0.0655,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1028,0.133,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1029,0.0825,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1030,0.3058,Medium,Manager Stability Score; Environment Satisfaction; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1032,0.197,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1033,0.8682,High,Burnout Risk Index; Environment Satisfaction; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1034,0.1372,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1035,0.0496,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1036,0.4506,Medium,Num Companies Worked; Manager Stability Score; Department Research & Development,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1037,0.8632,High,Num Companies Worked; Stock Option Level; Job Involvement,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1038,0.7365,High,Job Involvement; Environment Satisfaction; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1039,0.0681,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1040,0.0119,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1042,0.5254,Medium,Stock Option Level; Promotion Delay Risk; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1043,0.1734,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1044,0.1251,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1045,0.0296,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1046,0.1773,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1047,0.0103,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1048,0.1305,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1049,0.496,Medium,Satisfaction Composite Score; Stock Option Level; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1050,0.2265,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1052,0.7056,High,Manager Stability Score; Num Companies Worked; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1053,0.7748,High,Burnout Risk Index; Num Companies Worked; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1055,0.5384,Medium,Monthly Income; Manager Stability Score; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1056,0.8624,High,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1060,0.0533,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1061,0.0926,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1062,0.1024,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1066,0.5214,Medium,Burnout Risk Index; Satisfaction Composite Score; Years Since Last Promotion,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1068,0.0627,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1069,0.1061,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1070,0.4935,Medium,Manager Stability Score; Num Companies Worked; Department Research & Development,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1071,0.0757,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1073,0.1106,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1074,0.1645,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1076,0.3351,Medium,Manager Stability Score; Num Companies Worked; Daily Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1077,0.8857,High,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1079,0.9639,High,Monthly Income; Manager Stability Score; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1080,0.1162,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1081,0.2034,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1082,0.3242,Medium,Satisfaction Composite Score; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1083,0.1656,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1084,0.1255,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1085,0.0359,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1088,0.0397,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1092,0.1103,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1094,0.0821,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1096,0.0446,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1097,0.0991,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1098,0.0686,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1099,0.1368,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1100,0.842,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1101,0.8251,High,Travel Burden Score; Stock Option Level; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1102,0.3068,Medium,Monthly Income; Environment Satisfaction; Age,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1103,0.1198,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1105,0.6991,Medium,Burnout Risk Index; Manager Stability Score; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1106,0.5742,Medium,Work Life Balance; Age; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1107,0.8808,High,Manager Stability Score; Total Working Years; Training Times Last Year,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1108,0.9332,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1109,0.0622,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1111,0.8776,High,Manager Stability Score; Total Working Years; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1113,0.6686,Medium,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1114,0.0961,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1115,0.0396,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1116,0.0286,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1117,0.0336,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1118,0.2703,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1119,0.2442,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1120,0.044,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1121,0.0713,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1124,0.1365,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1125,0.3176,Medium,Num Companies Worked; Manager Stability Score; Department Research & Development,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1126,0.0859,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1127,0.5613,Medium,Num Companies Worked; Environment Satisfaction; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1128,0.067,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1131,0.3811,Medium,Stock Option Level; Work Life Balance; Total Working Years,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1132,0.1445,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1133,0.0382,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1135,0.1866,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1136,0.6193,Medium,Satisfaction Composite Score; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1137,0.0885,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1138,0.2357,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1140,0.1344,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1143,0.1075,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1148,0.4227,Medium,Manager Stability Score; Stock Option Level; Job Involvement,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1150,0.1851,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1152,0.2078,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1154,0.351,Medium,Burnout Risk Index; Overtime Risk Score; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1156,0.7929,High,Manager Stability Score; Monthly Income; Training Times Last Year,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1157,0.7994,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1158,0.2335,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1160,0.607,Medium,Burnout Risk Index; Total Working Years; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1161,0.1429,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1162,0.0335,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1163,0.3296,Medium,Stock Option Level; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1164,0.2244,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1165,0.7405,High,Burnout Risk Index; Relationship Satisfaction; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1166,0.1886,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1167,0.8571,High,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1171,0.1764,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1172,0.0737,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1173,0.4595,Medium,Num Companies Worked; Age; Stock Option Level,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1175,0.9305,High,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1177,0.06,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1179,0.1083,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1180,0.1483,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1182,0.1782,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1184,0.0577,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1185,0.2488,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1188,0.8824,High,Job Involvement; Environment Satisfaction; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1190,0.4139,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1191,0.0783,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1192,0.187,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1193,0.6366,Medium,Manager Stability Score; Stock Option Level; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1195,0.2925,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1196,0.0172,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1198,0.6917,Medium,Stock Option Level; Total Working Years; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1200,0.1294,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1201,0.0666,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1202,0.4221,Medium,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1203,0.2923,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1204,0.2968,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1206,0.0427,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1207,0.1092,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1210,0.3209,Medium,Manager Stability Score; Environment Satisfaction; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1211,0.4261,Medium,Num Companies Worked; Age; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1212,0.2747,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1215,0.0284,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1216,0.185,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1217,0.1917,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1218,0.1944,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1219,0.929,High,Manager Stability Score; Burnout Risk Index; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1220,0.3621,Medium,Burnout Risk Index; Manager Stability Score; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1221,0.0939,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1224,0.3116,Medium,Relationship Satisfaction; Years Since Last Promotion; Age,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1225,0.1676,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1226,0.5424,Medium,Total Working Years; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1228,0.0899,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1231,0.0514,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1233,0.0452,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1234,0.2986,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1235,0.3637,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1237,0.1653,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1238,0.026,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1239,0.2627,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1240,0.1119,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1241,0.06,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1242,0.2873,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1243,0.2268,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1244,0.523,Medium,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1245,0.239,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1246,0.0311,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1248,0.9293,High,Work Life Balance; Manager Stability Score; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1249,0.0619,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1250,0.0342,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1251,0.3742,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1252,0.3199,Medium,Stock Option Level; Satisfaction Composite Score; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1254,0.1228,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1255,0.0323,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1256,0.0943,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1257,0.2046,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1258,0.4757,Medium,Manager Stability Score; Num Companies Worked; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1259,0.0622,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1260,0.0953,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1263,0.0393,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1264,0.0131,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1265,0.2118,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1267,0.1517,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1268,0.0515,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1269,0.4899,Medium,Stock Option Level; Total Working Years; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1270,0.0536,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1273,0.9831,High,Burnout Risk Index; Monthly Income; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1275,0.4908,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1277,0.8327,High,Burnout Risk Index; Job Involvement; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1278,0.1113,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1279,0.8903,High,Burnout Risk Index; Stock Option Level; Total Working Years,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1280,0.0768,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1281,0.3687,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1282,0.33,Medium,Burnout Risk Index; Overtime Risk Score; Years Since Last Promotion,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1283,0.0869,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1285,0.0993,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1286,0.5722,Medium,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1288,0.0288,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1289,0.0941,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1291,0.1538,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1292,0.1752,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1293,0.0987,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1294,0.2533,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1295,0.0754,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1296,0.4373,Medium,Burnout Risk Index; Total Working Years; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1297,0.5967,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1298,0.2928,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1299,0.6811,Medium,Satisfaction Composite Score; Relationship Satisfaction; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1301,0.1617,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1303,0.2998,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1304,0.0646,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1306,0.4079,Medium,Burnout Risk Index; Stock Option Level; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1307,0.2594,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1308,0.0768,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1309,0.4601,Medium,Manager Stability Score; Relationship Satisfaction; Age,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1310,0.6295,Medium,Satisfaction Composite Score; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1311,0.2387,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1312,0.0523,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1314,0.1205,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1315,0.0781,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1317,0.2059,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1318,0.8294,High,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1319,0.9526,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1321,0.2871,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1322,0.3206,Medium,Satisfaction Composite Score; Relationship Satisfaction; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1324,0.2916,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1329,0.2114,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1331,0.8402,High,Work Life Balance; Monthly Income; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1333,0.3305,Medium,Work Life Balance; Satisfaction Composite Score; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1334,0.0814,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1336,0.1431,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1338,0.1795,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1340,0.0565,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1344,0.0406,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1346,0.0403,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1349,0.076,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1350,0.3744,Medium,Burnout Risk Index; Stock Option Level; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1352,0.069,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1355,0.1335,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1356,0.2781,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1358,0.1829,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1360,0.854,High,Burnout Risk Index; Stock Option Level; Training Times Last Year,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1361,0.0399,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1362,0.1517,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1363,0.0447,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1364,0.1852,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1367,0.0406,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1368,0.554,Medium,Manager Stability Score; Monthly Income; Work Life Balance,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1369,0.0505,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1371,0.306,Medium,Manager Stability Score; Stock Option Level; Job Involvement,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1372,0.854,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1373,0.1511,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1374,0.1106,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1375,0.0198,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1377,0.2883,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1379,0.7883,High,Work Life Balance; Manager Stability Score; Num Companies Worked,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1380,0.6712,Medium,Burnout Risk Index; Training Times Last Year; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1382,0.0217,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1383,0.0235,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1387,0.225,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1389,0.302,Medium,Burnout Risk Index; Overtime Risk Score; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1390,0.2037,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1391,0.6416,Medium,Stock Option Level; Satisfaction Composite Score; Promotion Delay Risk,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1392,0.247,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1394,0.212,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1395,0.3867,Medium,Num Companies Worked; Work Life Balance; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1396,0.4797,Medium,Burnout Risk Index; Satisfaction Composite Score; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1397,0.0217,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1399,0.5078,Medium,Stock Option Level; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1401,0.0656,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1402,0.4454,Medium,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1403,0.5465,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1405,0.8558,High,Burnout Risk Index; Stock Option Level; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1407,0.03,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1408,0.0442,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1409,0.6569,Medium,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1411,0.4203,Medium,Satisfaction Composite Score; Environment Satisfaction; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1412,0.1327,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1415,0.1329,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1417,0.1208,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1419,0.5067,Medium,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1420,0.8189,High,Burnout Risk Index; Travel Burden Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1421,0.8006,High,Burnout Risk Index; Stock Option Level; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1422,0.0288,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1423,0.0242,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1424,0.0083,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1425,0.4382,Medium,Burnout Risk Index; Stock Option Level; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1427,0.947,High,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1428,0.2803,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1430,0.1326,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1431,0.0894,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1433,0.9073,High,Work Life Balance; Monthly Income; Manager Stability Score,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1434,0.4335,Medium,Satisfaction Composite Score; Work Life Balance; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1435,0.2077,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1436,0.2611,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1438,0.0711,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1439,0.7479,High,Satisfaction Composite Score; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1440,0.0494,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1441,0.2117,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1443,0.0556,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1445,0.2137,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1446,0.1668,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1447,0.1781,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1448,0.7099,High,Burnout Risk Index; Stock Option Level; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1449,0.0424,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1453,0.2883,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1457,0.762,High,Work Life Balance; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1458,0.8967,High,Work Life Balance; Manager Stability Score; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1459,0.6549,Medium,Stock Option Level; Satisfaction Composite Score; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1460,0.0964,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1461,0.3864,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1464,0.9369,High,Burnout Risk Index; Num Companies Worked; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1465,0.1532,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1466,0.2169,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1467,0.6666,Medium,Total Working Years; Training Times Last Year; Stock Option Level,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1468,0.0446,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1469,0.1263,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1471,0.0282,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1472,0.1773,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1473,0.1257,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1474,0.1201,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1475,0.152,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1477,0.3856,Medium,Satisfaction Composite Score; Relationship Satisfaction; Daily Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1478,0.1877,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1479,0.2048,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1480,0.208,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1481,0.4849,Medium,Manager Stability Score; Num Companies Worked; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1482,0.138,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1483,0.023,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1484,0.0454,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1485,0.395,Medium,Burnout Risk Index; Num Companies Worked; Years Since Last Promotion,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1486,0.6636,Medium,Work Life Balance; Monthly Income; Environment Satisfaction,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1487,0.948,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1489,0.8593,High,Work Life Balance; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1492,0.4158,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1494,0.9843,High,Burnout Risk Index; Manager Stability Score; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1495,0.5102,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1496,0.6836,Medium,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1497,0.0987,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1499,0.1833,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1501,0.0621,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1502,0.52,Medium,Num Companies Worked; Stock Option Level; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1503,0.2767,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1504,0.955,High,Burnout Risk Index; Manager Stability Score; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1506,0.2621,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1507,0.3404,Medium,Stock Option Level; Department Research & Development; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1509,0.1689,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1513,0.0828,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1514,0.1156,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1515,0.5894,Medium,Manager Stability Score; Relationship Satisfaction; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1516,0.1238,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1520,0.0285,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1522,0.8872,High,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1523,0.0556,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1525,0.1474,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1527,0.1487,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1529,0.1744,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1533,0.4255,Medium,Satisfaction Composite Score; Stock Option Level; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1534,0.8665,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1535,0.371,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1537,0.8353,High,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1539,0.3707,Medium,Burnout Risk Index; Stock Option Level; Job Involvement,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1541,0.2042,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1542,0.1106,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1543,0.1815,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1544,0.0733,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1545,0.1248,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1546,0.0289,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1547,0.2256,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1548,0.3707,Medium,Satisfaction Composite Score; Work Life Balance; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1549,0.0992,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1550,0.2173,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1551,0.834,High,Manager Stability Score; Monthly Income; Satisfaction Composite Score,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1552,0.0691,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1553,0.2312,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1554,0.2484,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1555,0.0934,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1556,0.6243,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1557,0.098,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1558,0.3222,Medium,Manager Stability Score; Num Companies Worked; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1560,0.4956,Medium,Burnout Risk Index; Satisfaction Composite Score; Environment Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1562,0.0929,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1563,0.179,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1564,0.1379,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1568,0.2276,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1569,0.9504,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1572,0.0382,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1573,0.3008,Medium,Satisfaction Composite Score; Relationship Satisfaction; Daily Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1574,0.0219,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1576,0.1597,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1577,0.5207,Medium,Manager Stability Score; Total Working Years; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1578,0.0677,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1580,0.0497,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1581,0.6603,Medium,Manager Stability Score; Satisfaction Composite Score; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1582,0.1509,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1583,0.214,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1585,0.1639,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1586,0.3429,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1587,0.4413,Medium,Stock Option Level; Environment Satisfaction; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1588,0.1602,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1590,0.1572,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1591,0.1408,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1592,0.0624,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1594,0.1996,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1595,0.0461,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1596,0.1494,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1597,0.2078,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1598,0.0598,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1599,0.1183,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1601,0.1012,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1602,0.2915,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1604,0.9514,High,Manager Stability Score; Burnout Risk Index; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1605,0.6114,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1606,0.1,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1607,0.0314,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1608,0.0547,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1609,0.1614,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1611,0.6062,Medium,Burnout Risk Index; Stock Option Level; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1612,0.2868,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1613,0.6138,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1614,0.2267,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1615,0.1082,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1617,0.1801,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1618,0.049,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1619,0.2483,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1621,0.1432,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1622,0.4362,Medium,Manager Stability Score; Burnout Risk Index; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1623,0.1774,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1624,0.937,High,Monthly Income; Work Life Balance; Manager Stability Score,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1625,0.0282,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1627,0.0498,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1628,0.0608,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1630,0.0175,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1631,0.1024,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1633,0.4047,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1635,0.0603,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1638,0.1198,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1639,0.7113,High,Num Companies Worked; Manager Stability Score; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1640,0.238,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1641,0.3944,Medium,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1642,0.4009,Medium,Environment Satisfaction; Stock Option Level; Hourly Rate,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1644,0.0408,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1645,0.946,High,Burnout Risk Index; Job Involvement; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1646,0.4516,Medium,Stock Option Level; Overtime Risk Score; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1647,0.3255,Medium,Num Companies Worked; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1648,0.1465,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1649,0.905,High,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1650,0.4593,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1651,0.1242,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1653,0.0321,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1654,0.1764,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1655,0.0391,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1656,0.0982,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1657,0.6157,Medium,Total Working Years; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1658,0.0412,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1659,0.3515,Medium,Satisfaction Composite Score; Monthly Income; Stock Option Level,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1661,0.0632,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1662,0.0312,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1664,0.1819,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1665,0.0396,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1666,0.0624,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1667,0.4026,Medium,Work Life Balance; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1668,0.0229,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1669,0.3607,Medium,Burnout Risk Index; Environment Satisfaction; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1670,0.0617,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1671,0.0316,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1673,0.1564,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1674,0.312,Medium,Burnout Risk Index; Overtime Risk Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1675,0.2597,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1676,0.0616,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1677,0.0428,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1678,0.3538,Medium,Burnout Risk Index; Stock Option Level; Job Role Sales Executive,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1680,0.7356,High,Stock Option Level; Total Working Years; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1681,0.0927,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1682,0.2692,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1683,0.1135,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1684,0.7955,High,Burnout Risk Index; Stock Option Level; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1687,0.1564,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1689,0.1402,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1691,0.2454,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1692,0.862,High,Manager Stability Score; Total Working Years; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1693,0.0547,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1694,0.1789,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1696,0.0863,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1697,0.0292,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1698,0.1382,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1700,0.1563,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1701,0.0944,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1702,0.3023,Medium,Monthly Income; Age; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1703,0.0364,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1704,0.1034,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1706,0.1701,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1707,0.026,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1708,0.118,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1709,0.2886,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1710,0.2484,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1712,0.0136,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1714,0.9319,High,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1716,0.8759,High,Burnout Risk Index; Job Involvement; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1718,0.3392,Medium,Work Life Balance; Monthly Income; Job Involvement,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1719,0.118,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1720,0.5174,Medium,Num Companies Worked; Burnout Risk Index; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1721,0.2226,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1722,0.0986,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1724,0.4393,Medium,Manager Stability Score; Burnout Risk Index; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1725,0.2483,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1727,0.2042,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1728,0.0348,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1729,0.0378,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1731,0.1258,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1732,0.3707,Medium,Burnout Risk Index; Job Role Sales Executive; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1733,0.5202,Medium,Burnout Risk Index; Num Companies Worked; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1734,0.9061,High,Job Involvement; Environment Satisfaction; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1735,0.6179,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1736,0.287,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1737,0.0297,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1739,0.4326,Medium,Burnout Risk Index; Job Involvement; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1740,0.3154,Medium,Stock Option Level; Years Since Last Promotion; Satisfaction Composite Score,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1744,0.1642,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1745,0.054,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1746,0.1473,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1747,0.8394,High,Num Companies Worked; Monthly Income; Training Times Last Year,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1749,0.1132,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1751,0.1298,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1752,0.8569,High,Job Involvement; Total Working Years; Stock Option Level,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1753,0.2537,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1754,0.2114,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1755,0.0183,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1756,0.1335,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1757,0.0714,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1758,0.9315,High,Burnout Risk Index; Manager Stability Score; Satisfaction Composite Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1760,0.2518,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1761,0.814,High,Manager Stability Score; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1762,0.3697,Medium,Manager Stability Score; Monthly Income; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1763,0.0568,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1764,0.0421,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1766,0.2575,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1767,0.8824,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1768,0.336,Medium,Num Companies Worked; Satisfaction Composite Score; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1770,0.2027,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1771,0.0544,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1772,0.2129,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1774,0.0319,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1775,0.1856,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1778,0.0259,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1779,0.5002,Medium,Job Involvement; Num Companies Worked; Stock Option Level,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1780,0.8967,High,Manager Stability Score; Stock Option Level; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1782,0.0806,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1783,0.9413,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1784,0.243,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1786,0.0536,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1787,0.2269,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1789,0.1514,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1790,0.256,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1792,0.6222,Medium,Burnout Risk Index; Monthly Income; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1794,0.1792,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1797,0.7843,High,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1798,0.053,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1799,0.0351,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1800,0.1507,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1801,0.3394,Medium,Num Companies Worked; Stock Option Level; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1802,0.1071,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1803,0.2379,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1804,0.0106,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1805,0.1229,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1807,0.2873,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1809,0.555,Medium,Burnout Risk Index; Stock Option Level; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1812,0.1282,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1813,0.0787,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1814,0.5918,Medium,Burnout Risk Index; Stock Option Level; Relationship Satisfaction,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1815,0.0624,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1816,0.5142,Medium,Num Companies Worked; Satisfaction Composite Score; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1818,0.6181,Medium,Burnout Risk Index; Stock Option Level; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1821,0.5233,Medium,Work Life Balance; Age; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1822,0.0182,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1823,0.0711,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1824,0.0694,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1826,0.1268,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1827,0.075,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1829,0.1443,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1830,0.0394,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1833,0.3379,Medium,Satisfaction Composite Score; Environment Satisfaction; Department Research & Development,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1834,0.0293,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1835,0.2019,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1836,0.2666,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1837,0.2513,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1839,0.5704,Medium,Manager Stability Score; Stock Option Level; Total Working Years,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1842,0.7453,High,Manager Stability Score; Total Working Years; Stock Option Level,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1844,0.956,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1845,0.1104,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1847,0.1008,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1849,0.1953,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1850,0.4586,Medium,Burnout Risk Index; Monthly Income; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1852,0.1486,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1853,0.3513,Medium,Num Companies Worked; Stock Option Level; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1854,0.0272,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1856,0.2744,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1857,0.1489,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1858,0.1304,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1859,0.2149,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1860,0.0883,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1862,0.9435,High,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1863,0.0736,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1864,0.2751,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1865,0.7477,High,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1866,0.0782,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1867,0.1458,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1868,0.9684,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1869,0.4543,Medium,Num Companies Worked; Department Research & Development; Job Role Sales Executive,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1870,0.101,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1871,0.0558,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1873,0.0733,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1875,0.3978,Medium,Manager Stability Score; Total Working Years; Age,Facilitate skip-level leadership check-in; pair employee with a senior mentor outside direct line of command.
+1876,0.8751,High,Monthly Income; Manager Stability Score; Total Working Years,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1878,0.9524,High,Burnout Risk Index; Manager Stability Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1880,0.2727,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1881,0.2157,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1882,0.3066,Medium,Manager Stability Score; Department Research & Development; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1883,0.2548,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1885,0.1455,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1886,0.2944,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1888,0.0413,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1890,0.1099,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1892,0.0894,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1893,0.6689,Medium,Burnout Risk Index; Manager Stability Score; Total Working Years,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1898,0.2172,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1900,0.0269,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1903,0.0122,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1905,0.8419,High,Burnout Risk Index; Manager Stability Score; Monthly Income,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1907,0.6736,Medium,Manager Stability Score; Environment Satisfaction; Stock Option Level,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1908,0.3674,Medium,Burnout Risk Index; Department Research & Development; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1909,0.2015,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1911,0.0909,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1912,0.1224,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1915,0.4292,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1916,0.3769,Medium,Num Companies Worked; Training Times Last Year; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1918,0.1284,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1922,0.0943,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1924,0.2184,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1927,0.4818,Medium,Burnout Risk Index; Department Research & Development; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1928,0.9756,High,Monthly Income; Burnout Risk Index; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1929,0.4808,Medium,Job Involvement; Environment Satisfaction; Num Companies Worked,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1931,0.0606,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1932,0.2968,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1933,0.8949,High,Burnout Risk Index; Stock Option Level; Training Times Last Year,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1934,0.0462,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1935,0.1428,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1936,0.2329,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1937,0.1412,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1938,0.1993,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1939,0.8226,High,Stock Option Level; Satisfaction Composite Score; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1940,0.0208,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1941,0.1087,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1943,0.1063,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1944,0.9314,High,Manager Stability Score; Stock Option Level; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1945,0.1954,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1947,0.0346,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1948,0.106,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1949,0.1329,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1950,0.409,Medium,Manager Stability Score; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1951,0.0992,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1952,0.1488,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1954,0.0627,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1955,0.1435,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1956,0.3569,Medium,Stock Option Level; Job Involvement; Age,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+1960,0.6583,Medium,Num Companies Worked; Age; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1961,0.688,Medium,Satisfaction Composite Score; Manager Stability Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1962,0.1574,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1965,0.0888,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1966,0.1391,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1967,0.8975,High,Burnout Risk Index; Travel Burden Score; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1968,0.9557,High,Burnout Risk Index; Stock Option Level; Num Companies Worked,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1969,0.0797,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1970,0.0609,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1971,0.1028,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1972,0.2721,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1973,0.04,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1974,0.8937,High,Monthly Income; Burnout Risk Index; Manager Stability Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1975,0.3268,Medium,Stock Option Level; Satisfaction Composite Score; Years Since Last Promotion,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+1976,0.0323,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1979,0.1134,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1980,0.538,Medium,Burnout Risk Index; Num Companies Worked; Stock Option Level,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1981,0.1321,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1982,0.1581,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1985,0.1514,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1986,0.0513,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1987,0.3617,Medium,Stock Option Level; Age; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+1989,0.0757,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1992,0.6458,Medium,Burnout Risk Index; Num Companies Worked; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1993,0.3716,Medium,Stock Option Level; Satisfaction Composite Score; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+1994,0.1982,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1995,0.0357,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1996,0.1383,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1997,0.1127,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+1998,0.35,Medium,Burnout Risk Index; Num Companies Worked; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+1999,0.0539,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2000,0.051,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2003,0.365,Medium,Num Companies Worked; Overtime Risk Score; Career Growth Risk Indicator,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2007,0.0887,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2008,0.0565,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2009,0.23,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2010,0.511,Medium,Stock Option Level; Age; Promotion Delay Risk,Conduct career development roadmap meeting; define clear progression milestones and promotion timeline.
+2012,0.2844,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2013,0.1336,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2014,0.3956,Medium,Num Companies Worked; Stock Option Level; Environment Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+2015,0.015,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2016,0.0807,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2017,0.0398,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2018,0.2902,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2019,0.3595,Medium,Manager Stability Score; Environment Satisfaction; Monthly Income,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+2020,0.1413,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2021,0.919,High,Burnout Risk Index; Monthly Income; Total Working Years,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2022,0.0182,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2023,0.9698,High,Monthly Income; Manager Stability Score; Burnout Risk Index,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2024,0.1183,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2025,0.0423,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2026,0.0402,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2027,0.2875,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2031,0.3981,Medium,Num Companies Worked; Stock Option Level; Satisfaction Composite Score,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.
+2032,0.4103,Medium,Monthly Income; Num Companies Worked; Burnout Risk Index,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2034,0.0858,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2035,0.0985,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2036,0.0578,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2037,0.1269,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2038,0.1777,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2040,0.6364,Medium,Burnout Risk Index; Stock Option Level; Promotion Delay Risk,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2041,0.0775,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2044,0.617,Medium,Num Companies Worked; Daily Rate; Department Research & Development,Initiate off-cycle compensation review to align with market benchmarks; consider retention bonus.
+2045,0.2621,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2046,0.3575,Medium,Num Companies Worked; Stock Option Level; Department Research & Development,"Schedule strategic check-in with HR to discuss career progression, role expectations, and role-fit."
+2048,0.0284,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2049,0.0347,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2051,0.0165,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2052,0.0387,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2053,0.4737,Medium,Burnout Risk Index; Relationship Satisfaction; Overtime Risk Score,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2054,0.613,Medium,Burnout Risk Index; Stock Option Level; Age,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2055,0.8319,High,Burnout Risk Index; Manager Stability Score; Daily Rate,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2056,0.218,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2057,0.0548,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2060,0.1739,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2061,0.081,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2062,0.2115,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2064,0.069,Low,None (Low Attrition Risk),Maintain standard career engagement and annual performance reviews.
+2065,0.3448,Medium,Burnout Risk Index; Stock Option Level; Department Research & Development,"Implement immediate overtime cap, distribute workload, and schedule mandatory wellness recovery days."
+2068,0.366,Medium,Satisfaction Composite Score; Stock Option Level; Relationship Satisfaction,Conduct structured stay-interview; evaluate department culture fit or potential lateral transfer.

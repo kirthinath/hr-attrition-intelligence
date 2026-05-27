@@ -1,0 +1,36 @@
+{
+    "workforce_kpis": {
+        "total_historical_headcount": 1470,
+        "current_active_headcount": 1233,
+        "historical_departed_count": 237,
+        "overall_attrition_rate": 0.1612,
+        "overall_retention_rate": 0.8388
+    },
+    "financial_impact": {
+        "total_estimated_attrition_cost": 20421738.0,
+        "average_cost_per_departed_employee": 86167.67,
+        "total_lifetime_value_loss_elv": 111842780.0,
+        "average_active_employee_elv": 815725.38,
+        "average_departed_employee_elv": 471910.46
+    },
+    "predictive_risk_exposure": {
+        "active_high_risk_headcount": 18,
+        "active_medium_risk_headcount": 244,
+        "aggregate_workforce_risk_score": 0.196
+    },
+    "overtime_vulnerability": {
+        "overtime_attrition_rate": 0.3053,
+        "no_overtime_attrition_rate": 0.1044,
+        "overtime_attrition_multiplier": 2.93
+    },
+    "career_progression_vulnerability": {
+        "high_promotion_delay_attrition_rate": 0.1367,
+        "low_promotion_delay_attrition_rate": 0.1696,
+        "promotion_delay_attrition_multiplier": 0.81
+    },
+    "departmental_attrition_rates": {
+        "Human Resources": 0.1905,
+        "Research & Development": 0.1384,
+        "Sales": 0.2063
+    }
+}
